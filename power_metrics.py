@@ -1,7 +1,9 @@
 import subprocess
 
 class powermetrics:
-
+ # TODO: filter the remainig form for energy impact
+ # TODO: save it in a file
+ # TODO: Execute multi threading or async calls to the data
 
     def gather_data(self, number_of_samples, interval):
         sudo_command=f"sudo -S powermetrics -i {number_of_samples} -n {interval} --show-process-energy | grep -iE 'ffplay|ALL_TASKS|NAME'"
