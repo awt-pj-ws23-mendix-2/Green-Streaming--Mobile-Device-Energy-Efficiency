@@ -5,12 +5,13 @@ class powermetrics:
  # TODO: save it in a file
  # TODO: Execute multi threading or async calls to the data
 
-    def gather_data(self, number_of_samples, interval):
+    @staticmethod
+    def gather_data(number_of_samples, interval):
         sudo_command=f"sudo -S powermetrics -i {number_of_samples} -n {interval} --show-process-energy | grep -iE 'ffplay|ALL_TASKS|NAME'"
         print(sudo_command)
         # output = subprocess.check_output(sudo_command, shell=True, universal_newlines=True ,input='2252')
         output = subprocess.run(sudo_command, shell=True, universal_newlines=True ,input='2252',stdout=subprocess.PIPE, text=True)
-        output =output.stdout
+        output = output.stdout
         print(output)
         with open('output.txt', 'w') as file:
             file.write(output)
