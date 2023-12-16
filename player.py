@@ -72,6 +72,6 @@ def get_video_resolution(video_path):
 
     return int(width), int(height)
 
-video_path = 'testfolder/output.mp4'  # Replace with your video file path
+video_path = 'testfolder/output.mp4'
 resolution = get_video_resolution(video_path)
 print(f"Resolution: {resolution[0]}x{resolution[1]}")
