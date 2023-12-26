@@ -1,7 +1,7 @@
 import cv2
 
 # Open the video capture
-cap = cv2.VideoCapture('./output.mp4')  # Replace 'your_video_file.mp4' with your video file path
+cap = cv2.VideoCapture('../output.mp4')  # Replace 'your_video_file.mp4' with your video file path
 
 # Check if the video is opened successfully
 if not cap.isOpened():

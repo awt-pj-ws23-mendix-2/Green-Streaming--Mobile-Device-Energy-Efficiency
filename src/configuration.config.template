@@ -1,0 +1,6 @@
+
+[Password]
+sudo_password='2252'
+
+[Path]
+output_path ='./src/temp_data/output.txt'

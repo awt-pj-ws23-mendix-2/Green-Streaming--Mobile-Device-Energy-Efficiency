@@ -15,7 +15,6 @@ for video_file in video_files:
     input("Press Enter to play the next video...")
 
 
-
 def calculate_brightness(video_path, start_time, end_time):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
