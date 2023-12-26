@@ -6,8 +6,8 @@ import numpy as np
 
 def play_video(video_path):
     subprocess.run(['ffplay', '-autoexit', video_path])
-
-video_folder = 'testfolder'
+print(os.getcwd())
+video_folder = '../testfolder'
 video_files = [f for f in os.listdir(video_folder) if f.endswith('.mp4')]
 
 for video_file in video_files:
@@ -68,7 +68,7 @@ def get_video_resolution(video_path):
     width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     cap.release()
-
+    print(f"width {width},{height}")
     return int(width), int(height)
 
 video_path = 'testfolder/output.mp4'

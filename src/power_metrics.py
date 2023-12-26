@@ -3,6 +3,7 @@ import parser
 
 
 class powermetrics:
+    # ! DO all when the sub process has been integrated all together
     # TODO: filter the remainig form for energy impact
     # TODO: save it in a file
     # TODO: Execute multi processing or async calls to the data

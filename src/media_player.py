@@ -13,9 +13,9 @@ def play_video(video_path):
     print(output)
 
 if __name__ == '__main__':
-    stream = ff.input("../output.mp4")
+    stream = ff.input("../testfolder/output.mp4")
 
-    play_video("../output.mp4")
+    play_video("../testfolder/output.mp4")
 
 
 
