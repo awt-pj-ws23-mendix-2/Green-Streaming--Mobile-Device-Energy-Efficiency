@@ -14,7 +14,7 @@ class powermetrics:
         output, error= process.communicate(input= password)
         # output = output.stdout
         print(output)
-        with open(output_file_path, 'w') as file:
+        with open(output_file_path, 'a') as file:
             file.write(output)
 
 if __name__ == "__main__":

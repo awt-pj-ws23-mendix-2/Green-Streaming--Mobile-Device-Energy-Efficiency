@@ -22,14 +22,15 @@ class Player:
         total_frames = self.cap.get(cv2.CAP_PROP_FRAME_COUNT)
         return total_frames
 
-    def play_video(self, video_path):
+    def play_video(self, video_path, output_file_path):
         # play video file in ffmpeg player
-        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit"
+        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file_path}"
         print(sudo_command)
         # output = subprocess.run(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True)
         process = subprocess.Popen(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True,stdin=subprocess.PIPE)
         output,error=process.communicate()
-        print(output)
+        print(f"ffplay {output}")
+
 
     def release_detroy(self):
         self.cap.release()
