@@ -9,9 +9,10 @@ class powermetrics:
 
         sudo_command = f"sudo -S powermetrics -i {sampling_interval} -n {number_of_samples} --show-process-energy | grep -iE 'ffplay|ALL_TASKS|NAME'"
         print(sudo_command)
-        output = subprocess.run(sudo_command, shell=True, universal_newlines=True, input=password,
-                                stdout=subprocess.PIPE, text=True)
-        output = output.stdout
+        # output = subprocess.run(sudo_command, shell=True, universal_newlines=True, input=password,stdout=subprocess.PIPE, text=True)
+        process = subprocess.Popen(sudo_command, shell=True,stdin=subprocess.PIPE, universal_newlines=True,stdout=subprocess.PIPE, text=True)
+        output, error= process.communicate(input= password)
+        # output = output.stdout
         print(output)
         with open(output_file_path, 'w') as file:
             file.write(output)
