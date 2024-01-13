@@ -15,10 +15,11 @@ if __name__ == '__main__':
     video_path="./testfolder/output.mp4"
     samples = int(player.get_video_total_frames())
     frequency = int(player.get_video_fps())
+    interval = int(1000*(1/frequency))
     print(samples, frequency)
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         # Submit both functions to be executed concurrently
-        future2 = executor.submit(pd.gather_data, samples, 1000*(1/frequency), pas, output)
+        future2 = executor.submit(pd.gather_data, samples, interval, pas, output)
         time.sleep(2)
         future1 = executor.submit(player.play_video, video_path)
 
@@ -27,4 +28,5 @@ if __name__ == '__main__':
 
 
     print("--------finihed-------")
+    player.release_detroy()
 

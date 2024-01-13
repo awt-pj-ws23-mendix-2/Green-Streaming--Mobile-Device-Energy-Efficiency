@@ -32,7 +32,7 @@ class Player:
 
     def release_detroy(self):
         self.cap.release()
-        self.cv2.destroyAllWindows()
+        # self.cv2.destroyAllWindows()
 
 if __name__ == "__init__":
     # Open the video capture
