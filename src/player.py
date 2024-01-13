@@ -47,7 +47,7 @@ def calculate_brightness(video_path, start_time, end_time):
 # print("Average Brightness from", start_time, "to", end_time, "seconds:", average_brightness)
 
 
-
+#! dont need it anymore
 def get_video_fps(video_path):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
