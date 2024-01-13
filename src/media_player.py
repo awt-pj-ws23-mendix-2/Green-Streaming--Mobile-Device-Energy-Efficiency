@@ -12,6 +12,7 @@ def play_video(video_path):
 
 if __name__ == '__main__':
     stream = ff.input("../testfolder/output.mp4")
+    print(f"stream {stream}")
 
     play_video("../testfolder/output.mp4")
 

@@ -6,34 +6,35 @@ import subprocess
 class Player:
 
     def __init__(self, video_path):
-        pass
+        self.cap=cv2.VideoCapture(video_path)
 
     def get_video_end_time(self):
         end_time=0
+        end_time = self.get_video_total_frames()/ self.get_video_fps()
         return end_time
     def get_video_fps(self):
         fps=0
+        fps = self.cap.get(cv2.CAP_PROP_FPS)
+
         return fps
     def get_video_total_frames(self):
         total_frames =0
+        total_frames = self.cap.get(cv2.CAP_PROP_FRAME_COUNT)
         return total_frames
 
     def play_video(self, video_path):
-        # code for playing the frames one at a time
-
-        # cap.release()
-        # cv2.destroyAllWindows()
-        pass
-
-        sudo_command = f"ffplay -loglevel +repeat -i {video_path} "
+        # play video file in ffmpeg player
+        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit"
         print(sudo_command)
         output = subprocess.run(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,
                                 text=True)
         print(output)
 
+    def release_detroy(self):
+        self.cap.release()
+        self.cv2.destroyAllWindows()
 
-
-if __name__ == "__main__":
+if __name__ == "__init__":
     # Open the video capture
     # cap = cv2.VideoCapture('../testfolder/Randhom HD/random_HD_25fps_25Mbps_H264.mp4')  # Replace 'your_video_file.mp4' with your video file path
     cap = cv2.VideoCapture('../testfolder/output.mp4')  # Replace 'your_video_file.mp4' with your video file path
@@ -46,7 +47,6 @@ if __name__ == "__main__":
         ret, frame = cap.read()
         if not ret:
             break
-        # cv2.imshow('Video Player', frame)
         total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
         brighntenss = cap.get(cv2.CAP_PROP_BRIGHTNESS)
         saturation = cap.get(cv2.CAP_PROP_SATURATION)
@@ -85,3 +85,11 @@ if __name__ == "__main__":
     print("starting with ffplay ")
     player= Player('../testfolder/output.mp4')
     player.play_video('../testfolder/output.mp4')
+
+
+if __name__=="__main__":
+    print("hello")
+    cap = cv2.VideoCapture('../testfolder/output.mp4')
+    ret, frame = cap.read()
+    print(ret,len(frame))
+
