@@ -1,40 +1,591 @@
+ffplay version 6.0 Copyright (c) 2003-2023 the FFmpeg developers
+  built with Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/6.0_2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './testfolder/output.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Duration: 00:00:07.80, start: 0.000000, bitrate: 723 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x540 [SAR 1:1 DAR 16:9], 720 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+   0.01 M-V:  0.000 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.04 M-V:  0.000 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.07 M-V:  0.000 fd=   0 aq=    0KB vq=   73KB sq=    0B f=0/0      0.11 M-V:  0.001 fd=   0 aq=    0KB vq=   80KB sq=    0B f=0/0      0.16 M-V:  0.001 fd=   0 aq=    0KB vq=   82KB sq=    0B f=0/0      0.19 M-V:  0.001 fd=   0 aq=    0KB vq=   75KB sq=    0B f=0/0      0.23 M-V:  0.001 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.26 M-V:  0.001 fd=   0 aq=    0KB vq=   81KB sq=    0B f=0/0      0.30 M-V:  0.001 fd=   0 aq=    0KB vq=   81KB sq=    0B f=0/0      0.34 M-V:  0.001 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.38 M-V:  0.001 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.42 M-V:  0.001 fd=   0 aq=    0KB vq=   80KB sq=    0B f=0/0      0.46 M-V:  0.001 fd=   0 aq=    0KB vq=   81KB sq=    0B f=0/0      0.50 M-V:  0.001 fd=   0 aq=    0KB vq=   75KB sq=    0B f=0/0      0.54 M-V:  0.001 fd=   0 aq=    0KB vq=   74KB sq=    0B f=0/0      0.58 M-V:  0.001 fd=   0 aq=    0KB vq=   81KB sq=    0B f=0/0      0.61 M-V:  0.001 fd=   0 aq=    0KB vq=   82KB sq=    0B f=0/0      0.65 M-V:  0.001 fd=   0 aq=    0KB vq=   76KB sq=    0B f=0/0      0.69 M-V:  0.001 fd=   0 aq=    0KB vq=   76KB sq=    0B f=0/0      0.73 M-V:  0.001 fd=   0 aq=    0KB vq=   75KB sq=    0B f=0/0      0.76 M-V:  0.001 fd=   0 aq=    0KB vq=   88KB sq=    0B f=0/0      0.80 M-V:  0.001 fd=   0 aq=    0KB vq=   90KB sq=    0B f=0/0      0.83 M-V:  0.001 fd=   0 aq=    0KB vq=   84KB sq=    0B f=0/0      0.87 M-V:  0.001 fd=   0 aq=    0KB vq=   83KB sq=    0B f=0/0      0.91 M-V:  0.000 fd=   0 aq=    0KB vq=   88KB sq=    0B f=0/0      0.95 M-V:  0.001 fd=   0 aq=    0KB vq=   89KB sq=    0B f=0/0      1.00 M-V:  0.001 fd=   0 aq=    0KB vq=   82KB sq=    0B f=0/0      1.04 M-V:  0.001 fd=   0 aq=    0KB vq=   82KB sq=    0B f=0/0      1.07 M-V:  0.002 fd=   0 aq=    0KB vq=   89KB sq=    0B f=0/0      1.10 M-V:  0.001 fd=   0 aq=    0KB vq=   90KB sq=    0B f=0/0      1.14 M-V:  0.001 fd=   0 aq=    0KB vq=   84KB sq=    0B f=0/0      1.18 M-V:  0.001 fd=   0 aq=    0KB vq=   84KB sq=    0B f=0/0      1.22 M-V:  0.001 fd=   0 aq=    0KB vq=   91KB sq=    0B f=0/0      1.26 M-V:  0.001 fd=   0 aq=    0KB vq=   93KB sq=    0B f=0/0      1.30 M-V:  0.001 fd=   0 aq=    0KB vq=   87KB sq=    0B f=0/0      1.34 M-V:  0.001 fd=   0 aq=    0KB vq=   86KB sq=    0B f=0/0      1.38 M-V:  0.001 fd=   0 aq=    0KB vq=   94KB sq=    0B f=0/0      1.42 M-V:  0.001 fd=   0 aq=    0KB vq=   96KB sq=    0B f=0/0      1.45 M-V:  0.001 fd=   0 aq=    0KB vq=   90KB sq=    0B f=0/0      1.49 M-V:  0.000 fd=   0 aq=    0KB vq=   89KB sq=    0B f=0/0      1.53 M-V:  0.000 fd=   0 aq=    0KB vq=   97KB sq=    0B f=0/0      1.57 M-V:  0.001 fd=   0 aq=    0KB vq=   99KB sq=    0B f=0/0      2.54 M-V:  0.001 fd=   0 aq=    0KB vq=   93KB sq=    0B f=0/0      2.57 M-V:  0.879 fd=  20 aq=    0KB vq=   98KB sq=    0B f=0/0      2.61 M-V: -0.003 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      2.64 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      2.68 M-V: -0.011 fd=  21 aq=    0KB vq=   94KB sq=    0B f=0/0      2.72 M-V: -0.011 fd=  21 aq=    0KB vq=   85KB sq=    0B f=0/0      2.76 M-V: -0.011 fd=  21 aq=    0KB vq=   83KB sq=    0B f=0/0      2.80 M-V: -0.011 fd=  21 aq=    0KB vq=   81KB sq=    0B f=0/0      2.84 M-V: -0.011 fd=  21 aq=    0KB vq=   90KB sq=    0B f=0/0      2.88 M-V: -0.011 fd=  21 aq=    0KB vq=   81KB sq=    0B f=0/0      2.92 M-V: -0.012 fd=  21 aq=    0KB vq=   78KB sq=    0B f=0/0      2.96 M-V: -0.011 fd=  21 aq=    0KB vq=   85KB sq=    0B f=0/0      3.00 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      3.04 M-V: -0.011 fd=  21 aq=    0KB vq=   77KB sq=    0B f=0/0      3.08 M-V: -0.011 fd=  21 aq=    0KB vq=   76KB sq=    0B f=0/0      3.12 M-V: -0.012 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      3.16 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      3.20 M-V: -0.012 fd=  21 aq=    0KB vq=   81KB sq=    0B f=0/0      3.24 M-V: -0.011 fd=  21 aq=    0KB vq=   80KB sq=    0B f=0/0      3.28 M-V: -0.011 fd=  21 aq=    0KB vq=   85KB sq=    0B f=0/0      3.32 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      3.36 M-V: -0.011 fd=  21 aq=    0KB vq=   79KB sq=    0B f=0/0      3.40 M-V: -0.011 fd=  21 aq=    0KB vq=   78KB sq=    0B f=0/0      3.44 M-V: -0.012 fd=  21 aq=    0KB vq=   77KB sq=    0B f=0/0      3.48 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      3.52 M-V: -0.011 fd=  21 aq=    0KB vq=   81KB sq=    0B f=0/0      3.56 M-V: -0.011 fd=  21 aq=    0KB vq=   80KB sq=    0B f=0/0      3.60 M-V: -0.012 fd=  21 aq=    0KB vq=   87KB sq=    0B f=0/0      3.64 M-V: -0.011 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      3.68 M-V: -0.011 fd=  21 aq=    0KB vq=   82KB sq=    0B f=0/0      3.72 M-V: -0.012 fd=  21 aq=    0KB vq=   82KB sq=    0B f=0/0      3.76 M-V: -0.012 fd=  21 aq=    0KB vq=   89KB sq=    0B f=0/0      3.80 M-V: -0.011 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      3.84 M-V: -0.011 fd=  21 aq=    0KB vq=   84KB sq=    0B f=0/0      3.88 M-V: -0.011 fd=  21 aq=    0KB vq=   83KB sq=    0B f=0/0      3.92 M-V: -0.012 fd=  21 aq=    0KB vq=   90KB sq=    0B f=0/0      3.96 M-V: -0.012 fd=  21 aq=    0KB vq=   92KB sq=    0B f=0/0      4.00 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      4.04 M-V: -0.012 fd=  21 aq=    0KB vq=   85KB sq=    0B f=0/0      4.08 M-V: -0.011 fd=  21 aq=    0KB vq=   84KB sq=    0B f=0/0      4.12 M-V: -0.012 fd=  21 aq=    0KB vq=   94KB sq=    0B f=0/0      4.16 M-V: -0.011 fd=  21 aq=    0KB vq=   83KB sq=    0B f=0/0      4.20 M-V: -0.011 fd=  21 aq=    0KB vq=   82KB sq=    0B f=0/0      4.24 M-V: -0.011 fd=  21 aq=    0KB vq=   90KB sq=    0B f=0/0      4.28 M-V: -0.012 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      4.32 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      4.36 M-V: -0.011 fd=  21 aq=    0KB vq=   85KB sq=    0B f=0/0      4.40 M-V: -0.012 fd=  21 aq=    0KB vq=   93KB sq=    0B f=0/0      4.44 M-V: -0.011 fd=  21 aq=    0KB vq=   91KB sq=    0B f=0/0      4.48 M-V: -0.011 fd=  21 aq=    0KB vq=   87KB sq=    0B f=0/0      4.52 M-V: -0.011 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      4.56 M-V: -0.011 fd=  21 aq=    0KB vq=   93KB sq=    0B f=0/0      4.60 M-V: -0.012 fd=  21 aq=    0KB vq=   92KB sq=    0B f=0/0      4.64 M-V: -0.012 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      4.68 M-V: -0.011 fd=  21 aq=    0KB vq=   87KB sq=    0B f=0/0      4.72 M-V: -0.012 fd=  21 aq=    0KB vq=   86KB sq=    0B f=0/0      4.76 M-V: -0.011 fd=  21 aq=    0KB vq=   95KB sq=    0B f=0/0      4.80 M-V: -0.011 fd=  21 aq=    0KB vq=   89KB sq=    0B f=0/0      4.84 M-V: -0.011 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      4.88 M-V: -0.011 fd=  21 aq=    0KB vq=   95KB sq=    0B f=0/0      4.92 M-V: -0.012 fd=  21 aq=    0KB vq=   96KB sq=    0B f=0/0      4.96 M-V: -0.011 fd=  21 aq=    0KB vq=   88KB sq=    0B f=0/0      5.00 M-V: -0.012 fd=  21 aq=    0KB vq=   89KB sq=    0B f=0/0      5.04 M-V: -0.011 fd=  21 aq=    0KB vq=   97KB sq=    0B f=0/0      5.08 M-V: -0.011 fd=  21 aq=    0KB vq=   98KB sq=    0B f=0/0      5.12 M-V: -0.011 fd=  21 aq=    0KB vq=   91KB sq=    0B f=0/0      5.16 M-V: -0.011 fd=  21 aq=    0KB vq=   90KB sq=    0B f=0/0      5.20 M-V: -0.011 fd=  21 aq=    0KB vq=   99KB sq=    0B f=0/0      5.24 M-V: -0.011 fd=  21 aq=    0KB vq=  101KB sq=    0B f=0/0      5.28 M-V: -0.011 fd=  21 aq=    0KB vq=   94KB sq=    0B f=0/0      5.32 M-V: -0.011 fd=  21 aq=    0KB vq=   93KB sq=    0B f=0/0      5.36 M-V: -0.011 fd=  21 aq=    0KB vq=  102KB sq=    0B f=0/0      5.40 M-V: -0.011 fd=  21 aq=    0KB vq=  103KB sq=    0B f=0/0      5.44 M-V: -0.011 fd=  21 aq=    0KB vq=   97KB sq=    0B f=0/0      5.48 M-V: -0.012 fd=  21 aq=    0KB vq=   96KB sq=    0B f=0/0      5.52 M-V: -0.012 fd=  21 aq=    0KB vq=  110KB sq=    0B f=0/0      5.56 M-V: -0.011 fd=  21 aq=    0KB vq=  112KB sq=    0B f=0/0      5.59 M-V: -0.011 fd=  21 aq=    0KB vq=  103KB sq=    0B f=0/0      5.62 M-V: -0.011 fd=  21 aq=    0KB vq=  105KB sq=    0B f=0/0      5.66 M-V: -0.011 fd=  21 aq=    0KB vq=  104KB sq=    0B f=0/0      5.70 M-V: -0.012 fd=  21 aq=    0KB vq=  110KB sq=    0B f=0/0      5.74 M-V: -0.012 fd=  21 aq=    0KB vq=  111KB sq=    0B f=0/0      5.78 M-V: -0.011 fd=  21 aq=    0KB vq=  103KB sq=    0B f=0/0      5.82 M-V: -0.011 fd=  21 aq=    0KB vq=  102KB sq=    0B f=0/0      5.86 M-V: -0.011 fd=  21 aq=    0KB vq=  107KB sq=    0B f=0/0      5.90 M-V: -0.011 fd=  21 aq=    0KB vq=  108KB sq=    0B f=0/0      5.94 M-V: -0.011 fd=  21 aq=    0KB vq=  101KB sq=    0B f=0/0      5.98 M-V: -0.011 fd=  21 aq=    0KB vq=   99KB sq=    0B f=0/0      6.02 M-V: -0.012 fd=  21 aq=    0KB vq=  102KB sq=    0B f=0/0      6.06 M-V: -0.011 fd=  21 aq=    0KB vq=  103KB sq=    0B f=0/0      6.10 M-V: -0.011 fd=  21 aq=    0KB vq=   95KB sq=    0B f=0/0      6.14 M-V: -0.011 fd=  21 aq=    0KB vq=   94KB sq=    0B f=0/0      6.17 M-V: -0.011 fd=  21 aq=    0KB vq=   94KB sq=    0B f=0/0      6.21 M-V: -0.012 fd=  21 aq=    0KB vq=   93KB sq=    0B f=0/0      6.25 M-V: -0.012 fd=  21 aq=    0KB vq=   83KB sq=    0B f=0/0      6.29 M-V: -0.011 fd=  21 aq=    0KB vq=   80KB sq=    0B f=0/0      6.33 M-V: -0.012 fd=  21 aq=    0KB vq=   78KB sq=    0B f=0/0      6.37 M-V: -0.012 fd=  21 aq=    0KB vq=   76KB sq=    0B f=0/0      6.41 M-V: -0.012 fd=  21 aq=    0KB vq=   66KB sq=    0B f=0/0      6.45 M-V: -0.011 fd=  21 aq=    0KB vq=   63KB sq=    0B f=0/0      6.49 M-V: -0.012 fd=  21 aq=    0KB vq=   61KB sq=    0B f=0/0      6.53 M-V: -0.011 fd=  21 aq=    0KB vq=   59KB sq=    0B f=0/0      6.57 M-V: -0.012 fd=  21 aq=    0KB vq=   44KB sq=    0B f=0/0      6.61 M-V: -0.011 fd=  21 aq=    0KB vq=   40KB sq=    0B f=0/0      6.65 M-V: -0.012 fd=  21 aq=    0KB vq=   39KB sq=    0B f=0/0      6.69 M-V: -0.011 fd=  21 aq=    0KB vq=   37KB sq=    0B f=0/0      6.73 M-V: -0.012 fd=  21 aq=    0KB vq=   30KB sq=    0B f=0/0      6.77 M-V: -0.011 fd=  21 aq=    0KB vq=   27KB sq=    0B f=0/0      6.81 M-V: -0.012 fd=  21 aq=    0KB vq=   26KB sq=    0B f=0/0      6.85 M-V: -0.012 fd=  21 aq=    0KB vq=   25KB sq=    0B f=0/0      6.89 M-V: -0.011 fd=  21 aq=    0KB vq=   18KB sq=    0B f=0/0      6.93 M-V: -0.012 fd=  21 aq=    0KB vq=   16KB sq=    0B f=0/0      6.97 M-V: -0.011 fd=  21 aq=    0KB vq=   14KB sq=    0B f=0/0      7.01 M-V: -0.011 fd=  21 aq=    0KB vq=   13KB sq=    0B f=0/0      7.05 M-V: -0.011 fd=  21 aq=    0KB vq=    8KB sq=    0B f=0/0      7.09 M-V: -0.012 fd=  21 aq=    0KB vq=    6KB sq=    0B f=0/0      7.13 M-V: -0.011 fd=  21 aq=    0KB vq=    4KB sq=    0B f=0/0      7.17 M-V: -0.012 fd=  21 aq=    0KB vq=    3KB sq=    0B f=0/0      7.21 M-V: -0.011 fd=  21 aq=    0KB vq=    1KB sq=    0B f=0/0      7.25 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.29 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.33 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.37 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.41 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.45 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.49 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.53 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.57 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.61 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.65 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.69 M-V: -0.011 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0      7.73 M-V: -0.012 fd=  21 aq=    0KB vq=    0KB sq=    0B f=0/0   Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     643.28    49.35  396.58  375.71             1628.08 229.60            509.38      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     598.19    54.48  871.75  380.23             2439.06 556.44            487.12      
+ALL_TASKS                          -2     736.33    54.16  428.83  326.73             2266.67 367.57            461.32      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     1113.14   32.68  1953.43 339.33             3980.22 421.87            262.69      
+ALL_TASKS                          -2     615.92    48.33  496.66  434.58             2214.29 351.80            289.58      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     1446.74   64.83  522.85  342.55             2199.56 270.44            288.38      
+ALL_TASKS                          -2     1873.95   26.45  2969.72 325.45             5797.05 467.83            319.20      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     798.98    56.16  826.02  320.29             2250.48 455.15            149.19      
+ALL_TASKS                          -2     759.54    53.41  340.31  380.34             2001.81 260.24            201.23      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     593.45    48.92  487.34  324.89             1821.10 273.59            115.79      
+ALL_TASKS                          -2     522.53    50.41  254.43  371.85             1369.98 58.71             159.19      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     330.12    38.36  310.33  327.11             1333.58 159.36            64.80       
+ALL_TASKS                          -2     425.25    42.99  285.18  361.23             1349.85 114.07            139.20      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     199.75    27.23  287.08  337.75             895.02  59.11             45.43       
+ALL_TASKS                          -2     691.29    54.85  395.82  320.42             1338.24 94.24             147.29      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     239.53    34.66  256.33  339.01             793.78  24.81             39.53       
+ALL_TASKS                          -2     492.85    47.46  342.03  361.03             1349.11 57.00             138.32      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     491.51    64.54  393.97  342.58             984.92  8.56              69.12       
+ALL_TASKS                          -2     578.18    46.43  319.33  338.11             1371.22 131.49            139.27      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     943.03    73.74  512.78  316.22             1512.71 145.29            242.16      
+ALL_TASKS                          -2     646.15    55.01  281.39  375.18             1294.38 112.55            142.05      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     715.35    70.69  403.36  327.73             1168.06 84.03             1096.88     
+ALL_TASKS                          -2     818.73    50.15  372.49  484.24             1713.47 242.12            160.74      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     209.34    27.79  265.30  333.76             795.89  25.67             59.28       
+ALL_TASKS                          -2     811.02    53.18  357.57  375.44             1448.14 143.03            122.14      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     255.52    33.77  247.80  346.92             784.69  57.82             43.88       
+ALL_TASKS                          -2     685.97    51.73  333.21  370.23             1425.38 185.11            140.23      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     334.33    39.80  348.63  306.11             1207.44 187.07            76.89       
+ALL_TASKS                          -2     584.25    45.96  316.22  334.82             1190.47 130.21            155.70      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     298.38    34.64  216.11  340.79             1147.06 149.62            45.29       
+ALL_TASKS                          -2     549.89    43.93  361.33  361.33             1264.64 126.46            126.13      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     208.52    29.98  325.11  308.00             906.88  25.67             59.07       
+ALL_TASKS                          -2     1330.22   32.78  414.73  378.66             1388.43 0.00              214.91      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     263.55    34.08  282.71  332.60             823.19  33.26             41.79       
+ALL_TASKS                          -2     2208.42   20.34  5794.16 367.88             6897.81 36.79             607.72      
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     367.15    40.38  451.72  340.92             1304.03 170.46            70.64       
+ALL_TASKS                          -2     1362.53   65.10  570.34  356.46             1479.32 0.00              1930.97     
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     495.42    49.54  356.65  372.86             1313.11 113.48            48.37       
+ALL_TASKS                          -2     1991.22   34.12  3704.89 366.63             4746.89 0.00              2725.01     
 Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
-ALL_TASKS                          -2     248.34    34.61  311.77  337.05             901.60  25.28             46.61       
+ALL_TASKS                          -2     755.39    39.83  499.40  379.54             1418.29 79.90             1453.15     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  454.23    40.14  0.00    0.00               0.00    0.00              1062.97     
+ALL_TASKS                          -2     1665.57   54.50  595.82  397.21             4333.23 649.98            2557.07     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  396.21    63.73  0.00    0.00               0.00    0.00              1348.97     
+ALL_TASKS                          -2     1533.02   71.27  536.89  309.75             6463.38 1734.58           5571.92     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  82.13     58.24  0.00    0.00               0.00    0.00              231.02      
+ALL_TASKS                          -2     1217.76   71.97  563.12  354.56             2502.74 312.84            2035.80     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  295.65    61.49  0.00    0.00               20.33   0.00              805.63      
+ALL_TASKS                          -2     3037.96   34.25  3269.61 379.70             5716.54 274.23            3484.74     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  403.26    64.33  0.00    0.00               0.00    0.00              1063.13     
+ALL_TASKS                          -2     3131.94   30.92  5333.21 369.82             7630.00 38.93             3476.13     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  793.17    71.05  0.00    0.00               20.95   0.00              2413.60     
+ALL_TASKS                          -2     3316.44   49.38  5486.55 356.00             13632.62 41.88             3748.85     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  6.08      62.11  0.00    0.00               84.11   0.00              10.37       
+ALL_TASKS                          -2     2159.04   66.47  760.31  359.03             3379.14 232.32            1415.28     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.85      21.19  0.00    0.00               83.80   0.00              0.37        
+ALL_TASKS                          -2     1236.85   52.94  500.62  312.89             2836.86 375.47            670.39      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.89      21.18  0.00    0.00               83.50   0.00              0.29        
+ALL_TASKS                          -2     1127.48   54.74  355.28  376.18             2591.49 438.88            354.55      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  1.02      25.80  0.00    0.00               82.19   0.00              0.22        
+ALL_TASKS                          -2     888.72    48.57  267.57  370.48             2119.94 226.40            255.15      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.68      20.66  0.00    0.00               79.90   0.00              0.23        
+ALL_TASKS                          -2     1124.98   57.46  480.34  420.29             2801.96 300.21            230.72      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  1.00      27.15  0.00    0.00               97.82   0.00              0.21        
+ALL_TASKS                          -2     1410.92   40.37  647.63  372.88             2570.90 314.00            295.72      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  90.88     62.82  0.00    0.00               115.30  0.00              97.13       
+ALL_TASKS                          -2     3145.58   55.37  3385.07 305.99             5546.15 19.12             2082.80     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  388.44    70.05  20.48   0.00               204.80  0.00              858.84      
+ALL_TASKS                          -2     2264.54   61.83  1104.79 347.80             3887.22 245.51            3437.35     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  69.25     61.98  0.00    0.00               270.10  0.00              129.10      
+ALL_TASKS                          -2     912.06    36.02  2178.10 394.13             4439.18 269.67            605.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.21     66.33  0.00    0.00               291.04  0.00              60.25       
+ALL_TASKS                          -2     1385.72   24.64  2391.13 374.26             4096.12 207.92            396.23      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  77.68     80.64  0.00    20.50              266.48  41.00             73.96       
+ALL_TASKS                          -2     923.05    50.62  1067.87 390.18             3491.11 390.18            374.54      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.43     72.01  0.00    0.00               281.24  0.00              53.10       
+ALL_TASKS                          -2     855.01    52.67  684.73  382.64             2839.60 443.06            285.05      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  115.27    72.06  0.00    0.00               316.22  0.00              81.91       
+ALL_TASKS                          -2     826.14    51.32  593.91  435.54             2811.19 237.57            305.74      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  100.11    82.53  0.00    0.00               276.86  0.00              58.76       
+ALL_TASKS                          -2     1246.09   60.55  533.64  375.52             2767.01 256.94            288.96      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  76.26     73.16  0.00    0.00               267.66  0.00              48.56       
+ALL_TASKS                          -2     1588.13   63.32  459.65  325.58             2930.26 172.37            399.75      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  98.47     69.70  0.00    0.00               288.47  0.00              61.38       
+ALL_TASKS                          -2     857.40    53.42  499.39  403.35             2247.24 288.11            238.86      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  118.12    85.29  0.00    0.00               286.85  0.00              69.98       
+ALL_TASKS                          -2     904.63    59.22  343.90  324.79             2006.07 114.63            239.94      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  72.06     74.46  0.00    0.00               268.13  0.00              40.23       
+ALL_TASKS                          -2     820.16    49.76  441.91  326.63             2228.77 172.92            203.36      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  62.15     70.55  0.00    0.00               304.68  0.00              41.10       
+ALL_TASKS                          -2     849.53    48.57  361.57  418.66             2112.31 76.12             200.60      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  204.45    73.40  0.00    18.80              263.17  0.00              101.26      
+ALL_TASKS                          -2     1722.35   57.01  488.15  356.73             2853.82 300.40            330.42      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  99.40     69.55  0.00    19.18              287.71  0.00              52.06       
+ALL_TASKS                          -2     2585.11   54.10  442.06  345.96             4843.41 211.42            348.82      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  88.13     69.42  0.00    19.17              287.56  0.00              52.80       
+ALL_TASKS                          -2     1825.36   53.43  401.57  363.33             3633.30 286.84            315.35      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  158.04    79.19  0.00    18.76              300.23  0.00              93.24       
+ALL_TASKS                          -2     1960.06   58.08  714.29  394.74             3289.51 169.18            353.41      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  71.74     76.88  0.00    0.00               286.05  0.00              41.43       
+ALL_TASKS                          -2     1088.08   54.59  514.74  362.22             2726.21 324.09            251.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  57.09     72.22  0.00    0.00               284.78  0.00              40.35       
+ALL_TASKS                          -2     1176.86   57.75  473.57  378.85             2689.86 189.43            250.22      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  181.27    78.63  0.00    0.00               286.89  0.00              105.53      
+ALL_TASKS                          -2     1605.58   60.97  727.17  325.31             2851.26 267.90            379.95      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  86.76     69.51  0.00    19.40              271.66  0.00              57.63       
+ALL_TASKS                          -2     1303.47   58.94  737.06  387.93             2948.24 310.34            347.87      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  55.85     66.81  0.00    19.71              256.24  0.00              75.29       
+ALL_TASKS                          -2     2097.23   73.35  1535.27 354.29             3720.07 19.68             1776.42     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  62.07     63.45  0.00    20.89              271.63  0.00              98.66       
+ALL_TASKS                          -2     903.38    53.87  1333.38 333.35             3312.62 375.01            570.28      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  117.24    75.84  0.00    0.00               291.79  0.00              182.96      
+ALL_TASKS                          -2     1014.65   59.47  687.62  354.23             2667.12 187.53            520.98      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  62.00     68.76  0.00    0.00               288.29  0.00              51.27       
+ALL_TASKS                          -2     816.69    53.47  576.91  370.87             2493.06 391.47            352.10      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  61.28     67.63  0.00    0.00               264.10  0.00              50.83       
+ALL_TASKS                          -2     855.83    54.85  835.30  407.46             2791.12 244.48            265.23      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  84.24     81.79  0.00    0.00               278.61  0.00              65.02       
+ALL_TASKS                          -2     966.39    59.52  498.08  338.69             2350.93 298.85            255.23      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  119.33    76.67  0.00    0.00               310.02  19.38             81.45       
+ALL_TASKS                          -2     767.79    54.47  581.45  387.63             2558.36 310.10            250.50      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  64.57     74.73  0.00    0.00               289.12  0.00              36.58       
+ALL_TASKS                          -2     758.59    52.49  618.50  386.57             2145.44 38.66             201.95      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  111.21    76.40  0.00    0.00               266.75  0.00              65.90       
+ALL_TASKS                          -2     1265.70   61.27  893.26  323.09             2641.77 190.06            252.93      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  176.90    75.61  19.32   19.32              309.17  19.32             106.18      
+ALL_TASKS                          -2     2287.14   64.19  1120.52 386.39             2975.17 135.23            810.11      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  81.77     74.05  0.00    0.00               228.77  0.00              108.22      
+ALL_TASKS                          -2     2820.71   44.28  5192.23 399.40             8235.30 247.25            2119.93     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  62.57     84.22  0.00    0.00               227.66  0.00              104.20      
+ALL_TASKS                          -2     1453.86   64.41  433.00  288.67             2721.71 268.05            628.25      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.86      22.51  0.00    0.00               82.85   0.00              0.24        
+ALL_TASKS                          -2     881.23    54.46  456.69  373.66             2283.45 352.90            287.34      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.56      22.46  0.00    0.00               81.07   0.00              0.23        
+ALL_TASKS                          -2     795.36    54.33  710.07  365.18             2231.65 223.17            273.44      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.71      27.08  0.00    0.00               80.08   0.00              0.24        
+ALL_TASKS                          -2     1083.64   57.18  1060.73 360.25             2761.89 160.11            274.56      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.87      17.81  0.00    0.00               79.57   0.00              0.19        
+ALL_TASKS                          -2     752.71    46.24  1216.28 378.84             2891.17 199.39            230.89      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.73      48.65  0.00    0.00               78.23   0.00              0.22        
+ALL_TASKS                          -2     4154.96   58.45  6092.64 449.14             8846.05 0.00              3813.57     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.45      43.28  0.00    0.00               80.75   0.00              0.58        
+ALL_TASKS                          -2     2300.13   75.19  664.63  362.53             3504.42 0.00              4295.50     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.79      22.91  0.00    0.00               84.20   0.00              0.70        
+ALL_TASKS                          -2     1524.33   68.03  760.05  422.25             2786.87 190.01            3342.14     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.91      22.23  0.00    0.00               84.20   0.00              0.43        
+ALL_TASKS                          -2     1560.55   37.19  3225.20 335.09             5340.43 230.37            863.18      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.26      34.45  0.00    0.00               83.56   0.00              0.40        
+ALL_TASKS                          -2     1283.74   43.44  1844.94 335.44             3920.49 377.37            634.72      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.85      27.07  0.00    0.00               82.89   0.00              0.26        
+ALL_TASKS                          -2     974.72    52.60  849.33  331.45             2983.01 704.32            534.54      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.88      19.92  0.00    0.00               82.31   0.00              0.24        
+ALL_TASKS                          -2     748.52    57.13  370.33  370.33             1748.77 185.16            253.71      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.88      36.76  0.00    0.00               81.43   0.00              0.50        
+ALL_TASKS                          -2     7113.19   64.56  13212.45 366.45             14942.90 0.00              6337.62     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.48      47.72  0.00    0.00               80.17   0.00              0.67        
+ALL_TASKS                          -2     5136.06   59.64  7652.21 360.58             10216.29 0.00              8766.38     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.65      30.46  0.00    0.00               82.07   0.00              0.46        
+ALL_TASKS                          -2     1209.16   62.10  493.71  329.14             2036.56 185.14            3199.44     
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.86      17.16  0.00    0.00               84.17   0.00              0.33        
+ALL_TASKS                          -2     1965.00   30.62  2492.22 335.09             4314.26 104.72            1319.57     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.87      21.34  0.00    0.00               83.46   0.00              0.38        
+ALL_TASKS                          -2     1091.08   72.35  648.40  376.49             2049.77 188.24            2141.66     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.88      18.49  0.00    0.00               84.59   21.15             0.31        
+ALL_TASKS                          -2     1547.63   51.65  548.15  337.32             2635.32 210.83            1511.08     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  0.77      21.50  0.00    0.00               84.51   0.00              0.27        
+ALL_TASKS                          -2     811.23    48.93  485.93  443.67             2070.48 295.78            725.58      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  14.93     40.76  0.00    0.00               83.40   0.00              21.90       
+ALL_TASKS                          -2     1698.18   67.32  963.85  586.69             3205.85 188.58            3227.16     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  741.92    90.05  0.00    0.00               209.11  0.00              1906.98     
+ALL_TASKS                          -2     1521.13   67.91  480.86  355.42             2759.74 334.51            2435.49     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  127.61    80.42  0.00    0.00               250.52  0.00              305.23      
+ALL_TASKS                          -2     963.94    55.52  437.55  354.20             2437.76 375.04            679.08      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  56.55     73.50  0.00    0.00               290.99  0.00              59.14       
+ALL_TASKS                          -2     799.09    58.02  498.81  374.11             2161.51 145.49            361.57      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  80.85     83.24  0.00    0.00               289.82  0.00              82.26       
+ALL_TASKS                          -2     873.13    55.74  393.25  331.16             2442.30 248.37            328.48      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.70     77.48  0.00    0.00               281.44  40.21             56.51       
+ALL_TASKS                          -2     940.36    49.38  383.72  403.92             2423.50 363.52            264.64      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  113.72    78.82  0.00    0.00               293.00  0.00              81.69       
+ALL_TASKS                          -2     1348.22   67.11  429.38  370.82             2088.33 78.07             348.00      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  104.38    82.47  0.00    0.00               267.10  0.00              63.38       
+ALL_TASKS                          -2     1744.56   39.42  1854.12 363.18             3440.64 133.80            329.32      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  71.57     76.98  0.00    0.00               287.44  0.00              49.72       
+ALL_TASKS                          -2     1202.80   56.87  612.62  382.89             2661.08 248.88            245.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  128.32    77.85  0.00    0.00               304.86  0.00              75.52       
+ALL_TASKS                          -2     1236.73   61.28  401.51  382.39             2409.04 191.19            269.47      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  108.75    82.08  0.00    0.00               264.65  0.00              60.92       
+ALL_TASKS                          -2     1161.52   47.89  472.05  358.76             2284.73 169.94            230.24      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  75.14     75.61  0.00    0.00               286.49  0.00              42.24       
+ALL_TASKS                          -2     806.32    56.17  401.26  363.04             1929.86 114.65            204.14      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  136.99    76.99  0.00    0.00               304.49  19.03             74.46       
+ALL_TASKS                          -2     1068.58   56.30  457.33  323.95             2648.73 476.39            256.09      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  103.57    84.01  0.00    0.00               268.75  0.00              59.36       
+ALL_TASKS                          -2     893.21    61.75  459.72  363.94             1838.87 153.24            224.17      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  72.87     75.30  0.00    0.00               269.04  0.00              41.04       
+ALL_TASKS                          -2     933.65    56.50  460.05  383.38             1936.06 115.01            211.39      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  99.60     72.59  0.00    0.00               306.24  0.00              62.91       
+ALL_TASKS                          -2     1054.25   62.09  440.52  421.37             2049.39 153.23            267.49      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  119.65    85.21  0.00    0.00               265.69  0.00              72.11       
+ALL_TASKS                          -2     935.80    56.89  360.90  417.89             2070.45 113.97            242.53      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  70.45     76.68  0.00    0.00               268.99  19.21             40.21       
+ALL_TASKS                          -2     1237.40   55.23  385.03  327.28             3041.76 231.02            248.77      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  61.10     71.97  0.00    0.00               324.25  0.00              42.41       
+ALL_TASKS                          -2     2060.40   64.67  556.22  364.42             2685.18 57.54             455.35      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  152.79    82.52  0.00    0.00               259.19  0.00              86.07       
+ALL_TASKS                          -2     1261.73   65.76  533.04  385.99             2463.01 147.05            367.71      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.37     75.25  0.00    0.00               300.28  0.00              46.35       
+ALL_TASKS                          -2     1569.79   77.81  560.57  355.02             2167.52 18.69             1138.31     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  43.26     66.26  0.00    0.00               304.07  0.00              96.86       
+ALL_TASKS                          -2     1165.87   70.09  512.08  348.22             2007.36 143.38            2436.61     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  163.76    79.27  0.00    0.00               293.76  0.00              94.36       
+ALL_TASKS                          -2     763.37    55.41  406.67  348.57             1839.68 154.92            347.05      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  74.46     76.09  0.00    19.20              268.76  0.00              41.09       
+ALL_TASKS                          -2     721.35    53.37  501.72  385.94             2026.19 135.08            248.76      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  55.73     74.64  0.00    0.00               282.15  0.00              33.13       
+ALL_TASKS                          -2     1010.52   56.93  395.99  377.13             1885.65 132.00            232.91      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  163.71    81.86  0.00    0.00               295.13  0.00              82.09       
+ALL_TASKS                          -2     1389.53   53.42  590.06  368.79             2341.79 202.83            266.21      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  76.14     75.53  0.00    0.00               263.68  0.00              41.90       
+ALL_TASKS                          -2     1896.30   62.27  605.10  340.37             2590.58 18.91             465.95      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  57.24     72.78  0.00    0.00               281.42  0.00              39.97       
+ALL_TASKS                          -2     3625.46   45.83  3147.60 505.86             6070.37 149.89            755.20      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  163.87    80.84  0.00    0.00               298.95  0.00              87.33       
+ALL_TASKS                          -2     1390.05   55.84  316.95  335.60             2330.53 167.80            284.41      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  74.85     75.42  0.00    0.00               283.64  0.00              41.30       
+ALL_TASKS                          -2     986.40    55.40  453.41  396.73             2285.94 75.57             213.03      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  66.01     70.98  0.00    0.00               263.32  0.00              35.66       
+ALL_TASKS                          -2     905.71    59.16  376.27  338.64             1900.14 131.69            197.65      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  85.30     65.80  0.00    0.00               300.93  0.00              50.73       
+ALL_TASKS                          -2     868.63    53.56  432.90  357.62             2126.88 169.40            212.91      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  175.20    90.34  0.00    0.00               284.77  0.00              91.99       
+ALL_TASKS                          -2     830.63    61.55  379.20  303.36             1611.61 151.68            247.93      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  64.76     73.73  0.00    0.00               266.26  0.00              36.48       
+ALL_TASKS                          -2     997.60    61.46  380.33  361.32             1825.59 57.05             203.84      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  151.52    82.04  0.00    0.00               278.44  0.00              85.68       
+ALL_TASKS                          -2     1062.20   58.25  371.73  334.55             1988.74 167.28            267.64      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  72.41     75.08  0.00    0.00               284.87  0.00              41.02       
+ALL_TASKS                          -2     893.91    58.47  379.83  360.84             1823.18 132.94            203.22      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  63.41     75.54  0.00    0.00               285.05  0.00              36.57       
+ALL_TASKS                          -2     957.18    62.18  341.03  359.98             1837.77 132.62            211.59      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  105.97    73.78  0.00    0.00               289.86  0.00              58.66       
+ALL_TASKS                          -2     1197.18   58.40  484.42  348.78             2499.62 213.15            245.28      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  130.30    85.48  0.00    0.00               263.28  0.00              72.72       
+ALL_TASKS                          -2     1047.89   57.21  357.26  357.26             2218.76 300.85            242.58      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  63.62     74.35  0.00    0.00               268.79  0.00              36.43       
+ALL_TASKS                          -2     954.71    58.02  499.18  307.18             2092.70 249.59            207.31      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.95     74.44  0.00    0.00               304.11  0.00              37.83       
+ALL_TASKS                          -2     1007.27   57.45  437.14  342.11             1881.62 152.05            219.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  180.34    83.54  0.00    18.91              283.71  0.00              88.35       
+ALL_TASKS                          -2     1060.60   55.86  435.93  416.97             2331.26 151.63            250.61      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  63.75     74.48  0.00    0.00               279.45  0.00              36.09       
+ALL_TASKS                          -2     973.86    62.84  390.52  371.92             1859.60 148.77            195.42      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.25     74.35  0.00    0.00               281.90  0.00              36.87       
+ALL_TASKS                          -2     790.72    54.22  300.73  319.53             1691.61 263.14            188.12      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  178.94    82.35  0.00    0.00               297.51  0.00              87.92       
+ALL_TASKS                          -2     1234.07   56.86  409.24  372.04             1990.42 74.41             257.73      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  71.99     76.47  0.00    0.00               260.21  0.00              33.88       
+ALL_TASKS                          -2     1350.70   64.13  501.46  408.60             2284.42 185.73            220.35      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  68.20     73.84  0.00    0.00               264.77  0.00              37.48       
+ALL_TASKS                          -2     1345.07   55.48  1098.69 359.91             4224.25 416.74            215.10      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  185.44    79.80  0.00    0.00               294.63  0.00              90.37       
+ALL_TASKS                          -2     3018.47   51.78  514.71  349.27             4944.91 459.56            511.96      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.65     76.46  0.00    0.00               272.19  0.00              40.07       
+ALL_TASKS                          -2     4022.77   36.99  8067.28 428.70             12159.38 77.94             1204.65     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.47     77.90  0.00    0.00               281.36  0.00              37.29       
+ALL_TASKS                          -2     3069.80   69.43  486.69  336.94             3331.96 0.00              1095.68     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  182.35    84.12  0.00    0.00               296.78  0.00              90.52       
+ALL_TASKS                          -2     2097.13   62.63  501.56  352.95             3083.67 185.76            606.72      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.58     76.26  0.00    0.00               299.88  0.00              38.02       
+ALL_TASKS                          -2     1088.57   60.60  430.49  336.90             1909.12 56.15             211.22      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  71.67     74.59  0.00    0.00               293.84  0.00              36.35       
+ALL_TASKS                          -2     1207.95   46.61  496.06  367.45             2039.35 73.49             207.48      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  178.68    84.26  0.00    0.00               262.56  0.00              91.65       
+ALL_TASKS                          -2     1043.80   56.24  412.49  393.75             2493.72 112.50            268.81      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  66.24     76.98  0.00    0.00               265.39  0.00              38.34       
+ALL_TASKS                          -2     1110.10   61.26  341.19  322.24             1781.79 94.78             219.14      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  57.84     74.75  0.00    0.00               300.23  0.00              41.35       
+ALL_TASKS                          -2     1026.61   55.35  563.27  337.96             2196.76 168.98            219.33      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  160.11    83.12  0.00    0.00               280.57  0.00              96.10       
+ALL_TASKS                          -2     1244.56   60.33  411.85  374.41             2452.39 149.76            291.65      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  68.17     74.09  0.00    0.00               265.81  18.99             38.00       
+ALL_TASKS                          -2     1111.55   61.18  473.80  379.04             2179.49 151.62            210.28      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  58.36     73.63  0.00    0.00               302.19  0.00              41.00       
+ALL_TASKS                          -2     1068.00   58.46  377.72  358.83             2360.72 283.29            212.83      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  177.81    82.76  0.00    0.00               284.96  0.00              94.14       
+ALL_TASKS                          -2     970.71    58.01  475.01  342.01             2033.05 323.01            250.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  73.82     76.57  0.00    0.00               278.18  0.00              34.24       
+ALL_TASKS                          -2     1059.94   63.28  537.76  315.24             2002.69 55.63             194.80      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.97     76.59  0.00    0.00               267.94  0.00              37.63       
+ALL_TASKS                          -2     820.76    54.42  421.47  402.31             1896.59 134.10            194.67      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  169.76    83.37  0.00    0.00               309.98  18.23             90.37       
+ALL_TASKS                          -2     1039.57   54.69  419.69  346.70             1988.98 255.47            249.48      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.12     73.46  0.00    0.00               261.69  18.69             37.07       
+ALL_TASKS                          -2     1050.90   62.60  466.73  410.72             2016.28 205.36            197.72      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.43     75.08  0.00    0.00               297.73  18.61             37.40       
+ALL_TASKS                          -2     1123.06   61.96  409.20  334.80             1897.21 186.00            205.94      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  186.45    83.50  0.00    0.00               296.22  18.51             90.46       
+ALL_TASKS                          -2     1427.90   60.78  648.67  315.07             2668.82 407.74            273.04      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.04     76.25  0.00    0.00               249.13  0.00              37.70       
+ALL_TASKS                          -2     1318.16   57.82  440.34  344.61             2469.74 229.74            235.38      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  56.17     77.47  0.00    0.00               171.35  0.00              41.52       
+ALL_TASKS                          -2     982.59    53.51  437.62  361.51             1997.81 95.13             212.61      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  174.22    85.40  0.00    0.00               187.79  0.00              95.16       
+ALL_TASKS                          -2     829.46    55.97  338.60  357.41             1881.12 188.11            252.06      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.84     77.02  0.00    0.00               188.53  0.00              37.46       
+ALL_TASKS                          -2     1042.38   62.85  301.54  301.54             1733.83 131.92            203.06      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.59     77.19  0.00    0.00               170.13  0.00              37.28       
+ALL_TASKS                          -2     1031.08   57.89  359.07  415.77             1776.47 151.19            199.89      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  179.34    85.71  0.00    0.00               167.17  0.00              96.10       
+ALL_TASKS                          -2     1164.75   57.92  371.77  353.19             1765.93 167.30            258.40      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  67.66     77.05  0.00    0.00               205.96  0.00              38.73       
+ALL_TASKS                          -2     1032.91   62.88  280.45  355.23             1776.15 149.57            200.54      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  57.60     78.11  0.00    0.00               168.52  0.00              41.81       
+ALL_TASKS                          -2     755.03    53.53  412.32  318.61             1668.01 168.67            217.20      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  181.30    84.12  0.00    0.00               168.59  0.00              96.15       
+ALL_TASKS                          -2     1090.72   60.76  468.39  374.71             2004.71 149.89            265.51      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  64.20     78.18  0.00    0.00               206.88  0.00              37.95       
+ALL_TASKS                          -2     1292.52   63.71  413.75  357.33             2388.45 338.52            225.86      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  63.86     78.64  0.00    0.00               170.02  0.00              37.12       
+ALL_TASKS                          -2     874.77    55.94  339.75  377.50             1925.25 169.88            203.08      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  196.84    87.61  0.00    0.00               168.40  0.00              105.42      
+ALL_TASKS                          -2     959.05    59.49  318.54  356.01             1948.70 243.59            279.42      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  65.56     76.48  0.00    0.00               208.79  0.00              38.06       
+ALL_TASKS                          -2     958.78    59.92  284.39  360.23             1763.24 151.68            202.50      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  61.60     78.00  0.00    0.00               169.98  0.00              38.41       
+ALL_TASKS                          -2     773.46    55.34  396.63  339.97             1737.62 207.76            196.02      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  160.84    82.44  0.00    0.00               170.95  0.00              85.90       
+ALL_TASKS                          -2     1108.47   66.13  303.82  303.82             1538.09 113.93            253.48      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  64.36     77.47  0.00    0.00               168.61  0.00              33.43       
+ALL_TASKS                          -2     1025.98   58.37  449.69  374.74             1948.67 224.85            196.07      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  59.44     77.44  0.00    0.00               206.82  0.00              34.81       
+ALL_TASKS                          -2     880.38    59.73  395.11  338.66             1806.20 188.15            189.85      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  158.12    83.42  0.00    0.00               166.99  0.00              83.51       
+ALL_TASKS                          -2     1193.96   63.10  315.84  390.15             1802.13 167.21            249.85      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  61.85     74.48  0.00    0.00               186.93  0.00              35.08       
+ALL_TASKS                          -2     1369.84   62.90  633.83  298.27             2404.83 205.06            228.51      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  59.35     75.70  0.00    0.00               186.98  0.00              33.64       
+ALL_TASKS                          -2     1020.72   55.21  355.60  393.03             2264.62 224.59            203.55      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  150.52    82.63  0.00    0.00               168.49  0.00              79.36       
+ALL_TASKS                          -2     992.70    60.67  355.70  374.42             1797.24 131.05            237.05      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  60.50     75.01  0.00    0.00               205.32  0.00              34.71       
+ALL_TASKS                          -2     1091.91   59.25  373.13  317.16             1884.33 205.22            194.63      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  58.94     78.48  0.00    0.00               168.29  0.00              34.94       
+ALL_TASKS                          -2     2452.67   27.40  8068.93 338.56             9347.93 0.00              433.53      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  122.93    77.14  0.00    0.00               200.13  0.00              61.72       
+ALL_TASKS                          -2     1151.87   50.65  616.88  381.01             2013.93 163.29            269.63      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  29.43     50.24  0.00    0.00               166.46  0.00              11.51       
+ALL_TASKS                          -2     780.70    53.81  387.76  332.36             1661.81 129.25            171.60      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  26.67     50.81  0.00    0.00               168.94  0.00              10.98       
+ALL_TASKS                          -2     757.84    52.41  318.61  356.10             1817.96 168.68            165.89      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  50.82     51.96  0.00    0.00               205.40  0.00              20.17       
+ALL_TASKS                          -2     1360.71   61.77  466.96  354.89             2166.68 205.46            244.35      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  29.93     49.35  0.00    0.00               170.22  0.00              12.03       
+ALL_TASKS                          -2     1182.01   58.46  529.90  321.73             2176.40 227.10            209.79      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  24.49     51.44  0.00    0.00               189.23  0.00              12.75       
+ALL_TASKS                          -2     1129.55   57.51  379.02  341.12             2217.27 322.17            196.27      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  53.07     52.82  0.00    0.00               169.66  0.00              19.36       
+ALL_TASKS                          -2     973.89    58.72  489.16  357.46             2050.69 206.95            184.89      
+[95750]ffplay                          	<calculating>
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  28.29     49.02  0.00    0.00               187.94  0.00              11.30       
+ALL_TASKS                          -2     729.74    53.83  394.26  375.49             1802.35 206.52            162.73      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  26.22     51.86  0.00    0.00               185.95  0.00              11.08       
+ALL_TASKS                          -2     797.36    52.63  317.61  392.34             1662.76 186.83            157.99      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             95750  56.39     53.88  0.00    0.00               184.91  0.00              20.25       
+ALL_TASKS                          -2     1219.97   63.12  441.47  331.11             1894.66 91.97             194.26      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1568.74   58.02  624.92  371.05             2519.20 410.10            755.33      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     18668.87   72.01  709.40  526.98             40334.57 526.98            18664.81     
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1142.06   61.22  282.02  362.60             2135.32 241.73            236.89      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1439.35   68.33  513.09  355.21             2387.83 256.54            291.67      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1340.28   60.37  714.19  424.65             3030.49 250.93            203.91      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2200.05   55.86  712.10  337.31             3373.12 224.87            329.42      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1728.49   56.63  574.39  333.52             3483.41 129.70            287.56      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1087.28   56.01  244.26  338.20             2066.81 319.42            175.92      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1210.29   61.03  299.94  374.93             2193.31 243.70            168.97      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1234.67   56.98  334.65  390.42             2323.94 185.92            184.71      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1673.64   41.92  307.78  380.19             2860.50 90.52             189.13      
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2248.75   31.37  452.62  325.89             2516.56 72.42             241.76      
