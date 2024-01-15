@@ -23,8 +23,9 @@ class Player:
         return total_frames
 
     def play_video(self, video_path, output_file_path):
+        output_file= output_file_path+"_player_logs.txt"
         # play video file in ffmpeg player
-        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file_path}"
+        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file}"
         print(sudo_command)
         # output = subprocess.run(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True)
         process = subprocess.Popen(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True,stdin=subprocess.PIPE)
