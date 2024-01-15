@@ -7,12 +7,14 @@ import numpy as np
 def play_video(video_path):
     subprocess.run(['ffplay', '-autoexit', video_path])
 
-video_folder = 'testfolder'
-video_files = [f for f in os.listdir(video_folder) if f.endswith('.mp4')]
 
-for video_file in video_files:
-    play_video(os.path.join(video_folder, video_file))
-    input("Press Enter to play the next video...")
+# Usage of playing videos
+# video_folder = 'testfolder'
+# video_files = [f for f in os.listdir(video_folder) if f.endswith('.mp4')]
+#
+# for video_file in video_files:
+#     play_video(os.path.join(video_folder, video_file))
+#     input("Press Enter to play the next video...")
 
 
 
@@ -72,6 +74,7 @@ def get_video_resolution(video_path):
 
     return int(width), int(height)
 
-video_path = 'testfolder/output.mp4'
+# video_path = 'testfolder/output.mp4'
+video_path = 'Samples/Random 4K/random_4k_25fps_05Mbps_H264.mp4'
 resolution = get_video_resolution(video_path)
 print(f"Resolution: {resolution[0]}x{resolution[1]}")
