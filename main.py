@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # demo tryout a new naming method
     file_manager= file_management.FileManagement()
     file_name=file_manager.get_filename(video_path)
-    output = config_parser.get_output_path()+file_name+".txt"
+    output = config_parser.get_output_path()+file_name
     player = player.Player(video_path)
     samples = int(player.get_video_total_frames())
     frequency = int(player.get_video_fps())
