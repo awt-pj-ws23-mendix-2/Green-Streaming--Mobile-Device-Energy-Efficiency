@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import ffmpeg
 import subprocess
-
+from datetime import datetime
 class Player:
 
     def __init__(self, video_path):
@@ -24,10 +24,13 @@ class Player:
 
     def play_video(self, video_path, output_file_path):
         output_file= output_file_path+"_player_logs.txt"
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         # play video file in ffmpeg player
+        with open(output_file, 'a') as file:
+            file.write(f"\n\n start-Timestamp: {timestamp}\n")
+            print(f"\n [video] start-Timestamp: {timestamp}\n")
         sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file}"
         print(sudo_command)
-        # output = subprocess.run(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True)
         process = subprocess.Popen(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True,stdin=subprocess.PIPE)
         output,error=process.communicate()
         print(f"ffplay {output}")
