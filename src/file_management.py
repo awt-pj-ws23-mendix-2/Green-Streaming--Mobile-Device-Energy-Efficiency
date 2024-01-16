@@ -18,8 +18,10 @@ class FileManagement:
         else:
             print(f"Error: File '{file_path}' does not exist.")
 
+    # {number_of_files} defines number of video which needs to be played . "000" means all videos needs to be
+    #     player locally
     @staticmethod
-    def find_mp4_files(root_folder):
+    def find_mp4_files(root_folder, number_of_files=1):
         mp4_paths = []
 
         for root, dirs, files in os.walk(root_folder):
@@ -28,6 +30,10 @@ class FileManagement:
                 if file.endswith('.mp4'):
                     mp4_paths.append(os.path.join(root, file))
 
+            if(number_of_files == 000):
+                 mp4_paths = mp4_paths
+            else:
+                mp4_paths= mp4_paths[:number_of_files]
         return mp4_paths
 
 if __name__ == "__main__":
@@ -36,7 +42,7 @@ if __name__ == "__main__":
     # path = "./temp_data/file_manager.txt"
     # file_manager.write_file(output, path)
     test_folder = "../testfolder"
-    mp4_files = file_manager.find_mp4_files(test_folder)
+    mp4_files = file_manager.find_mp4_files(test_folder, 000)
 
     print("List of .mp4 files:")
     for mp4_file in mp4_files:
