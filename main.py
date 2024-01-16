@@ -42,7 +42,7 @@ if __name__ == '__main__':
         interval = int(1000 * (1 / frequency))
         print(samples, frequency)
         pd = power_metrics.Powermetrics()
-
+        player.get_video_brightness(output)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             print(f"concurrent tasks starting : {timestamp}")
@@ -56,5 +56,6 @@ if __name__ == '__main__':
 
         timestamp= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print(f"concurrent tasks ending : {timestamp}")
+
         print("--------finished-------")
         player.release_detroy()
