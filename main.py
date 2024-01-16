@@ -4,6 +4,8 @@ from src import cv_player as player
 import concurrent.futures
 import time
 from src import file_management
+from datetime import datetime
+
 
 
 def initialize():
@@ -29,7 +31,6 @@ if __name__ == '__main__':
     for video_path in video_paths:
         print(f"Playing video {video_path}")
         file_name = file_manager.get_filename(video_path)
-        # video_path = "./testfolder/output.mp4"
 
         #  intialize player
         player = player.Player(video_path)
@@ -43,6 +44,9 @@ if __name__ == '__main__':
         pd = power_metrics.Powermetrics()
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            print(f"concurrent tasks starting : {timestamp}")
+
             # Submit both functions to be executed concurrently
             future2 = executor.submit(pd.gather_data, samples, interval, pas, output)
             time.sleep(2)
@@ -50,5 +54,7 @@ if __name__ == '__main__':
             # Wait for both futures to complete
             concurrent.futures.wait([future2, future1])
 
+        timestamp= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"concurrent tasks ending : {timestamp}")
         print("--------finished-------")
         player.release_detroy()
