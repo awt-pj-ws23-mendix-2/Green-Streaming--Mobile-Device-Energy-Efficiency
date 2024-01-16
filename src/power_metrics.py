@@ -19,7 +19,7 @@ class Powermetrics:
             file.write(output)
 
 if __name__ == "__main__":
-    pd = powermetrics()
+    pd = Powermetrics()
     config = parser.Parser()
     config_data = parser.Parser()
     pas = config_data.get_credentials()

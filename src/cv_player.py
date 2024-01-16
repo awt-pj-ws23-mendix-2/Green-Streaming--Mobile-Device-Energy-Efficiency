@@ -39,6 +39,23 @@ class Player:
     def release_detroy(self):
         self.cap.release()
         # self.cv2.destroyAllWindows()
+    def get_video_brightness(self, save_file_path):
+        brightness_values = []
+        while self.cap.isOpened():
+            ret, frame = self.cap.read()
+            if not ret:
+                break
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            val = np.mean(gray)
+            brightness_values.append(val)
+            output_path = save_file_path+"_brightness.txt"
+        with open(output_path, 'a') as file:
+            timestamp_current= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            file.write(f"\n start-Timestamp: {timestamp_current} \n")
+            file.write(str(brightness_values))
+        return brightness_values
+
+
 
 if __name__ == "__init__":
     # Open the video capture
@@ -95,7 +112,7 @@ if __name__ == "__init__":
 
 if __name__=="__main__":
     print("hello")
-    cap = cv2.VideoCapture('../testfolder/output.mp4')
-    ret, frame = cap.read()
-    print(ret,len(frame))
-
+    video_path = '../testfolder/output.mp4'
+    player = Player(video_path)
+    brightness_values = player.get_video_brightness("./temp_data/output")
+    print(f"lenght: {len(brightness_values)} \n{brightness_values}")
