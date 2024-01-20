@@ -35,7 +35,15 @@ class FileManagement:
             else:
                 mp4_paths= mp4_paths[:number_of_files]
         return mp4_paths
+    @staticmethod
+    def online_video_links(path_to_file_stored_video_links, number_of_links=1):
+        with open(path_to_file_stored_video_links, 'r') as file:
+            links = [line.strip() for line in file.readlines()]
+        return links[:number_of_links]
 
+
+
+        pass
 if __name__ == "__main__":
     # output = "File management works "
     file_manager = FileManagement()
@@ -47,3 +55,13 @@ if __name__ == "__main__":
     print("List of .mp4 files:")
     for mp4_file in mp4_files:
         print(mp4_file)
+
+    # New links reading function test
+
+    online_links=file_manager.online_video_links("../video_links.txt")
+    print(online_links)
+
+
+    #  file name check
+    filename=file_manager.get_filename(online_links[0])
+    print("filename",filename)
