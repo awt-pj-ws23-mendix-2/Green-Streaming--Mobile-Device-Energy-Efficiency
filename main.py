@@ -5,8 +5,7 @@ import concurrent.futures
 import time
 from src import file_management
 from datetime import datetime
-
-
+from src import extractor
 
 def initialize():
     #  get configurations
@@ -59,3 +58,7 @@ if __name__ == '__main__':
 
         print("--------finished-------")
         player.release_detroy()
+
+        extractor = extractor.Extractor()
+        temp_data_folder = 'src/temp_data'
+        extractor.process_video_files(temp_data_folder)
