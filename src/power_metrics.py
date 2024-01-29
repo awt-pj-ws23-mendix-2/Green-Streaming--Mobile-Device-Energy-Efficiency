@@ -10,14 +10,23 @@ class Powermetrics:
         print(sudo_command)
         process = subprocess.Popen(sudo_command, shell=True, stdin=subprocess.PIPE, universal_newlines=True,
                                    stdout=subprocess.PIPE, text=True)
-        output, error = process.communicate(input=password)
-        print(output)
-        with open(output_path, 'a') as file:
-            timestamp_current= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            file.write(f"\n start-Timestamp: {timestamp}\n end-Timestamp: {timestamp_current}\n")
-            print(f"\n start-Timestamp: {timestamp}\n end-Timestamp: {timestamp_current}")
-            file.write(output)
 
+        process.stdin.write(password+'\n')
+        process.stdin.flush()
+        # output, error = process.communicate(input=password)
+        # print(output)
+        for line in process.stdout:
+            print("***************printing line ")
+            timestamp_current = datetime.now().strftime("%Y-%m-%d %H:%M:%S:%f")[:-1]
+            with open(output_path, 'a') as file:
+                file.write(f"Timestamp: {timestamp_current}\n")
+                file.write(line)
+            print(f"Timestamp: {timestamp_current}\n{line}")
+        timestamp_end = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(output_path, 'a') as file:
+            file.write(f"end-Timestamp: {timestamp_end}\n")
+
+        print(f"end-Timestamp: {timestamp_end}")
 if __name__ == "__main__":
     pd = Powermetrics()
     config = parser.Parser()

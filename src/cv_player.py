@@ -48,7 +48,7 @@ class Player:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             val = np.mean(gray)
             brightness_values.append(val)
-            output_path = save_file_path+"_brightness.txt"
+        output_path = save_file_path+"_brightness.txt"
         with open(output_path, 'a') as file:
             timestamp_current= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             file.write(f"\n start-Timestamp: {timestamp_current} \n")
@@ -111,8 +111,9 @@ if __name__ == "__init__":
 
 
 if __name__=="__main__":
-    print("hello")
-    video_path = '../testfolder/output.mp4'
+    print("hello trying to stream video ")
+
+    video_path = 'https://refcontent.s3.eu-central-1.amazonaws.com/ref_content/luminance/GS_luma_filter_0_to_100_in_60sec_steps.mp4'
     player = Player(video_path)
     brightness_values = player.get_video_brightness("./temp_data/output")
     print(f"lenght: {len(brightness_values)} \n{brightness_values}")
