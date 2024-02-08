@@ -23,7 +23,9 @@ def plot_dataset_comparisons(dataset_groups):
     plt.bar(dataset_names, dataset_averages)
     plt.ylabel('Average of Averages')
     plt.title('Comparison of Dataset Averages')
+    plt.savefig('graph/dataset_comparison.png')
     plt.show()
+
 
 def get_dataset_groups(directory):
     dataset_groups = defaultdict(list)
