@@ -29,12 +29,14 @@ def get_dataset_groups(directory):
     dataset_groups = defaultdict(list)
     for file in os.listdir(directory):
         if file.endswith('.csv'):
-            dataset_name = file.split('_')[0]
+            base_name = file.rsplit('.', 1)[0]
+            dataset_name = base_name.rsplit('_', 1)[0]
+            print(dataset_name)
             dataset_groups[dataset_name].append(os.path.join(directory, file))
     return dataset_groups
 
 
-directory = 'temp_data'
+directory = 'csv_output'
 
 dataset_groups = get_dataset_groups(directory)
 
