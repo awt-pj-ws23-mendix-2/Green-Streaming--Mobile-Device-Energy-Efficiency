@@ -28,9 +28,10 @@ class Extractor:
             writer.writerow(['ffplay', 'ALL_TASKS', 'percentage'])
             writer.writerows(data)
 
-    def process_video_files(self, temp_data_folder):
+    def process_video_files(self, temp_data_folder, csv_output_folder):
         for file_name in os.listdir(temp_data_folder):
             if file_name.endswith('_powermetrics.txt'):
                 input_file = os.path.join(temp_data_folder, file_name)
-                output_csv_file = os.path.join(temp_data_folder, file_name.replace('_powermetrics.txt', '_powermetrics.csv'))
+                output_csv_file_name = file_name.replace('_powermetrics.txt', '_powermetrics.csv')
+                output_csv_file = os.path.join(csv_output_folder, output_csv_file_name)
                 self.extract_and_calculate_percentage(input_file, output_csv_file)
