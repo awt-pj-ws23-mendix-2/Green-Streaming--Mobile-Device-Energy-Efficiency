@@ -19,7 +19,7 @@ def initialize():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    local_execution = False
+    local_execution = True
     #  get configurations
     config_parser = parser.Parser()
     pas = config_parser.get_credentials()
@@ -66,4 +66,5 @@ if __name__ == '__main__':
 
         extractor = extractor.Extractor()
         temp_data_folder = 'src/temp_data'
-        extractor.process_video_files(temp_data_folder)
+        csv_output_folder = 'src/csv_output'
+        extractor.process_video_files(temp_data_folder, csv_output_folder)
