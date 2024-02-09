@@ -17,15 +17,15 @@ class Powermetrics:
         # print(output)
         for line in process.stdout:
             print("***************printing line ")
-            timestamp_current = datetime.now().strftime("%Y-%m-%d %H:%M:%S:%f")[:-3]
+            timestamp_current = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             with open(output_path, 'a') as file:
                 if "Name" in line:
                     file.write(f"Timestamp: {timestamp_current}\n")
                 file.write(line)
             print(f"Timestamp: {timestamp_current}\n{line}")
         timestamp_end = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open(output_path, 'a') as file:
-            file.write(f"end-Timestamp: {timestamp_end}\n")
+        # with open(output_path, 'a') as file:
+            # file.write(f"end-Timestamp: {timestamp_end}\n")
 
         print(f"end-Timestamp: {timestamp_end}")
 if __name__ == "__main__":
