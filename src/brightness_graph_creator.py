@@ -85,9 +85,9 @@ def plot_scatter(mapped_data_pairs, title="Brightness vs. Percentage", xlabel="A
     plt.show()
 
 # File paths
-log_file_path = "temp_data/random_HD_25fps_10Mbps_H265_player_logs.txt"
-brightness_file_path = "temp_data/random_HD_25fps_10Mbps_H265_brightness.txt"
-powermetrics_file_path = "temp_data/random_HD_25fps_10Mbps_H265_powermetrics.txt"
+log_file_path = "temp_data/Lumafilter_1920x1080_H264_30secsteps_25_5000_player_logs.txt"
+brightness_file_path = "temp_data/Lumafilter_1920x1080_H264_30secsteps_25_5000_brightness.txt"
+powermetrics_file_path = "temp_data/Lumafilter_1920x1080_H264_30secsteps_25_5000_powermetrics.txt"
 
 # Extract FPS from log file
 fps = extract_fps(log_file_path)
