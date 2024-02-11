@@ -51,11 +51,11 @@ if __name__ == '__main__':
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             print(f"concurrent tasks starting : {timestamp}")
             future_1 = executor.submit(player.get_video_brightness,output)
-            # Submit both functions to be executed concurrently
+            # Submit  functions to be executed concurrently
             future2 = executor.submit(pd.gather_data, samples, interval, pas, output)
             time.sleep(2)
             future1 = executor.submit(player.play_video, video_path, output)
-            # Wait for both futures to complete
+            # Wait for futures to complete
             concurrent.futures.wait([future2, future1, future_1])
 
         timestamp= datetime.now().strftime("%Y-%m-%d %H:%M:%S")

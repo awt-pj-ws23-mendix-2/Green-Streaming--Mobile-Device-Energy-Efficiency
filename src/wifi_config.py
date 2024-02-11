@@ -7,7 +7,7 @@ class WifiInformation:
         pass
 
     @staticmethod
-    def get_wifi_frequency():
+    def get_wifi_frequency(timestamp):
         try:
             output = subprocess.check_output(
                 ["/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport",
@@ -16,9 +16,9 @@ class WifiInformation:
             if frequency_match:
                 channel = int(frequency_match.group(1))
                 if 1 <= channel <= 14:
-                    return "2.4 GHz"
+                    return f"{timestamp} : 2.4 GHz"
                 elif 36 <= channel <= 165:
-                    return "5 GHz"
+                    return f"{timestamp} : 5 GHz"
         except subprocess.CalledProcessError:
             pass
 
