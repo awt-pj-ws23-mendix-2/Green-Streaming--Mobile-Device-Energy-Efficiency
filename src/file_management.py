@@ -10,6 +10,14 @@ class FileManagement:
         match = re.search(r'([^/\\]+)\.mp4$', path)
         return match.group(1)
 
+    @staticmethod
+    def generate_output_file_name(base_name):
+        count = 1
+        file_name = f"{base_name}_{count}.txt"
+        while os.path.exists(file_name):
+            file_name = f"{base_name}_{count}.txt"
+            count += 1
+        return file_name
     def write_file(self, output, file_path):
         if os.path.exists(file_path):
             with open(file_path, 'a') as file:
@@ -44,11 +52,11 @@ class FileManagement:
 
 
         pass
-if __name__ == "__main__":
-    # output = "File management works "
+if __name__ == "__test__":
+    output = "File management works "
     file_manager = FileManagement()
-    # path = "./temp_data/file_manager.txt"
-    # file_manager.write_file(output, path)
+    path = "./temp_data/file_manager.txt"
+    file_manager.write_file(output, path)
     test_folder = "../testfolder"
     mp4_files = file_manager.find_mp4_files(test_folder, 000)
 

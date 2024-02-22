@@ -3,6 +3,10 @@ import numpy as np
 import ffmpeg
 import subprocess
 from datetime import datetime
+
+from src.file_management import FileManagement
+
+
 class Player:
 
     def __init__(self, video_path):
@@ -23,13 +27,15 @@ class Player:
         return total_frames
 
     def play_video(self, video_path, output_file_path):
-        output_file= output_file_path+"_player_logs.txt"
+        output_file= output_file_path+"_player_logs"
+        file_manager = FileManagement()
+        output_file_path_count = file_manager.generate_output_file_name(output_file)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         # play video file in ffmpeg player
-        with open(output_file, 'a') as file:
+        with open(output_file_path_count, 'a') as file:
             file.write(f"\n\n start-Timestamp: {timestamp}\n")
             print(f"\n [video] start-Timestamp: {timestamp}\n")
-        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file}"
+        sudo_command = f"ffplay -loglevel +repeat -i {video_path} -autoexit 2>>{output_file_path_count}"
         print(sudo_command)
         process = subprocess.Popen(sudo_command, shell=True, universal_newlines=True, stdout=subprocess.PIPE,text=True,stdin=subprocess.PIPE)
         output,error=process.communicate()
@@ -48,18 +54,21 @@ class Player:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             val = np.mean(gray)
             brightness_values.append(val)
-        output_path = save_file_path+"_brightness.txt"
-        with open(output_path, 'a') as file:
+        output_path = save_file_path+"_brightness"
+        file_manager = FileManagement()
+        output_file_path_count = file_manager.generate_output_file_name(output_path)
+
+        with open(output_file_path_count, 'a') as file:
             timestamp_current= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             file.write(f"\n start-Timestamp: {timestamp_current} \n")
             file.write(str(brightness_values))
         return brightness_values
 
 
-
-if __name__ == "__init__":
+# Tests are created to check if the plugin is working as it is intended to be due to issues
+# with M1 and M2 mac's
+if __name__ == "__test__":
     # Open the video capture
-    # cap = cv2.VideoCapture('../testfolder/Randhom HD/random_HD_25fps_25Mbps_H264.mp4')  # Replace 'your_video_file.mp4' with your video file path
     cap = cv2.VideoCapture('../testfolder/output.mp4')  # Replace 'your_video_file.mp4' with your video file path
     # Check if the video is opened successfully
     if not cap.isOpened():
@@ -75,6 +84,7 @@ if __name__ == "__init__":
         saturation = cap.get(cv2.CAP_PROP_SATURATION)
         acceleration = cap.get(cv2.CAP_PROP_HW_ACCELERATION)
         color=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
         # Get the current position in milliseconds
         timestamp_msec = cap.get(cv2.CAP_PROP_POS_MSEC)
         fps = cap.get(cv2.CAP_PROP_FPS)
@@ -82,7 +92,6 @@ if __name__ == "__init__":
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         val=np.mean(gray)
         brightness_values.append(val)
-        # print(f"color {color}__ {acceleration}")
 
 
         # Convert milliseconds to a readable time format
@@ -109,9 +118,10 @@ if __name__ == "__init__":
     player= Player('../testfolder/output.mp4')
     player.play_video('../testfolder/output.mp4')
 
-
+# check if the streaming is supported in the sense of online streaming
+# rather than downloading video locally and playing it.
 if __name__=="__main__":
-    print("hello trying to stream video ")
+    print("Starting the online streaming video class ....")
 
     video_path = 'https://refcontent.s3.eu-central-1.amazonaws.com/ref_content/luminance/GS_luma_filter_0_to_100_in_60sec_steps.mp4'
     player = Player(video_path)

@@ -13,6 +13,10 @@ class Parser:
         path= self.config.get("Path", 'output_path')
         return path
 
+    def get_csv_output_path(self):
+        path= self.config.get("Path", 'csv_output_path')
+        return path
+
     def get_credentials(self):
         return self.config.get("Password", 'sudo_password')
 
