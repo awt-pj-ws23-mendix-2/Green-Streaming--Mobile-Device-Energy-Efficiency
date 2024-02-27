@@ -19,7 +19,7 @@ def initialize():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    local_execution = True
+    local_execution = False
     #  get configurations
     config_parser = parser.Parser()
     pas = config_parser.get_credentials()

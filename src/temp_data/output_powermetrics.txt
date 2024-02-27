@@ -1,0 +1,752 @@
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     744.26    54.12  1383.80 350.56             2804.51 221.41            563.69      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     571.22    46.92  1375.05 339.30             2589.38 321.44            475.27      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     567.61    53.05  1431.28 371.76             2546.56 55.76             415.61      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     738.03    56.41  1406.42 337.54             2569.06 56.26             403.39      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     488.16    44.22  1592.11 329.40             2488.81 36.60             365.94      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     688.99    53.38  1490.52 381.72             2490.25 36.35             384.20      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     552.01    47.74  1429.60 361.92             2406.80 54.29             360.99      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     864.47    53.02  1386.77 342.19             2809.56 180.10            371.12      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     996.61    55.81  1437.72 359.43             3342.70 197.69            456.39      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     814.59    54.04  1406.24 356.01             2954.88 142.40            381.30      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1175.95   47.00  1412.57 303.97             2467.52 35.76             390.88      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1314.27   61.90  1489.20 330.93             2592.32 257.39            1043.27     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     511.89    46.07  1351.87 355.76             2241.26 71.15             385.51      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1169.88   38.40  1379.32 322.44             2185.41 0.00              474.18      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2018.34   51.23  1320.78 374.82             2480.93 0.00              595.00      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  470.14    19.51  0.00    0.00               0.00    0.00              773.98      
+ALL_TASKS                          -2     1851.81   40.39  1423.28 324.29             4179.76 0.00              804.05      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  448.23    68.22  0.00    0.00               0.00    0.00              1528.64     
+ALL_TASKS                          -2     1869.54   67.91  1445.34 356.64             8052.63 919.76            2170.12     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  238.77    41.78  0.00    0.00               0.00    0.00              526.35      
+ALL_TASKS                          -2     1245.06   47.69  1406.34 407.10             7660.87 2775.68           1518.82     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  321.15    60.22  0.00    0.00               0.00    0.00              736.71      
+ALL_TASKS                          -2     2321.45   43.37  3576.85 383.23             7609.93 748.22            2518.18     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  117.42    23.10  0.00    0.00               0.00    0.00              175.21      
+ALL_TASKS                          -2     3214.71   33.30  3538.80 359.27             5029.76 0.00              2891.33     
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  668.33    64.35  0.00    0.00               0.00    0.00              1478.60     
+ALL_TASKS                          -2     2988.37   46.62  1561.31 371.74             7825.15 55.76             4126.73     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  488.29    77.19  0.00    0.00               73.57   0.00              1457.60     
+ALL_TASKS                          -2     3513.21   57.10  1838.80 367.76             7189.72 0.00              3878.14     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  0.41      34.83  0.00    0.00               73.41   0.00              0.41        
+ALL_TASKS                          -2     1561.65   60.61  1733.92 368.92             6677.43 368.92            864.89      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  0.55      28.08  0.00    0.00               90.61   0.00              0.47        
+ALL_TASKS                          -2     904.82    54.69  1576.39 362.39             3660.12 72.48             509.53      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  0.38      28.74  0.00    0.00               91.47   0.00              0.38        
+ALL_TASKS                          -2     769.73    58.65  1473.37 400.17             2964.92 90.95             419.56      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  0.58      44.69  0.00    0.00               91.30   0.00              0.41        
+ALL_TASKS                          -2     1821.05   52.06  1649.85 384.97             3776.33 238.31            1292.60     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  231.57    68.23  0.00    0.00               126.37  0.00              536.86      
+ALL_TASKS                          -2     2248.46   60.26  1586.58 360.59             3696.01 18.03             3032.85     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  399.72    67.03  0.00    0.00               109.78  0.00              756.45      
+ALL_TASKS                          -2     4421.17   54.40  3767.31 347.47             6985.99 0.00              6434.44     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  100.36    59.20  0.00    18.15              290.35  0.00              212.10      
+ALL_TASKS                          -2     938.97    48.37  1442.37 365.16             4144.54 200.84            1316.59     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  96.17     67.30  0.00    18.19              254.64  0.00              113.67      
+ALL_TASKS                          -2     808.82    49.21  1482.04 361.47             3253.26 72.29             771.72      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  78.58     78.61  0.00    0.00               291.26  0.00              155.38      
+ALL_TASKS                          -2     1579.63   59.50  1462.60 365.65             3528.52 54.85             1226.87     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  42.75     66.55  0.00    0.00               271.90  18.13             63.98       
+ALL_TASKS                          -2     846.04    51.22  1409.41 343.32             3198.27 126.49            516.76      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  94.28     77.79  0.00    0.00               291.97  0.00              164.34      
+ALL_TASKS                          -2     1943.07   46.14  1515.38 346.89             3176.81 73.03             836.60      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  58.53     68.79  0.00    0.00               274.22  54.84             81.90       
+ALL_TASKS                          -2     1214.02   50.59  1612.86 348.23             3482.31 439.87            1143.09     
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.53     67.59  0.00    0.00               290.34  18.15             68.68       
+ALL_TASKS                          -2     1180.48   62.50  1716.75 397.56             3505.79 253.00            517.44      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  97.58     75.50  0.00    0.00               289.17  0.00              159.68      
+ALL_TASKS                          -2     1111.15   53.17  1395.13 380.49             3913.61 126.83            637.17      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  47.32     71.75  0.00    0.00               292.78  0.00              68.32       
+ALL_TASKS                          -2     1260.31   53.43  1554.05 347.37             3364.05 73.13             576.23      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  73.79     70.58  0.00    0.00               287.36  0.00              117.41      
+ALL_TASKS                          -2     1095.75   57.17  1436.71 359.18             3519.93 323.26            682.12      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  66.25     77.85  0.00    0.00               268.86  0.00              92.84       
+ALL_TASKS                          -2     863.62    52.39  1422.93 342.22             3422.24 270.18            414.58      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.62     72.34  0.00    0.00               269.68  0.00              65.63       
+ALL_TASKS                          -2     1041.81   55.87  1377.95 322.12             3239.07 161.06            464.13      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  75.47     70.52  0.00    0.00               292.84  0.00              112.83      
+ALL_TASKS                          -2     968.17    57.93  1504.54 330.26             3210.90 36.70             523.68      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  70.41     77.89  0.00    0.00               271.35  0.00              96.59       
+ALL_TASKS                          -2     927.71    56.35  1423.76 360.44             3207.96 108.13            488.92      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.74     71.04  0.00    0.00               288.85  0.00              73.09       
+ALL_TASKS                          -2     879.83    56.89  1479.91 324.86             3122.24 108.29            495.83      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  80.23     71.06  0.00    0.00               294.62  0.00              111.92      
+ALL_TASKS                          -2     1002.32   53.54  1400.07 350.02             3260.68 110.53            552.67      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  69.16     75.84  0.00    0.00               270.51  0.00              99.66       
+ALL_TASKS                          -2     1004.77   40.43  1483.77 343.80             3655.15 18.09             538.89      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  87.53     70.11  0.00    0.00               290.78  0.00              127.02      
+ALL_TASKS                          -2     981.61    56.15  1420.44 327.79             3132.24 36.42             654.60      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.42     67.94  0.00    18.08              289.33  0.00              64.10       
+ALL_TASKS                          -2     925.60    54.67  1439.20 359.80             3382.13 179.90            423.49      
+Timestamp: 2024-02-09 01:02:26
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  67.80     76.54  0.00    0.00               293.12  0.00              109.82      
+ALL_TASKS                          -2     739.42    51.11  1468.36 330.38             3083.56 128.48            522.62      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  73.72     73.86  0.00    0.00               275.28  0.00              124.48      
+ALL_TASKS                          -2     1201.64   55.10  1574.81 329.61             3497.54 164.81            557.49      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  38.05     70.50  0.00    0.00               272.51  0.00              64.73       
+ALL_TASKS                          -2     2659.22   58.72  1505.95 326.59             6332.23 0.00              1498.80     
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  57.81     80.57  0.00    0.00               310.03  0.00              108.60      
+ALL_TASKS                          -2     1925.60   46.83  1406.28 365.27             3232.62 54.79             862.03      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  86.30     72.73  0.00    0.00               291.74  0.00              130.75      
+ALL_TASKS                          -2     1093.83   56.50  1349.22 364.65             3154.26 182.33            568.26      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.16     71.75  0.00    0.00               289.86  0.00              60.25       
+ALL_TASKS                          -2     953.18    59.99  1448.69 344.06             3096.57 90.54             586.05      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  94.04     80.90  0.00    0.00               291.38  18.21             174.40      
+ALL_TASKS                          -2     1673.68   59.41  2024.42 620.09             5343.75 328.28            986.38      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  51.34     69.92  0.00    0.00               274.05  18.27             66.01       
+ALL_TASKS                          -2     1477.14   55.93  1887.38 549.72             5185.71 348.16            804.06      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  39.99     71.66  0.00    0.00               271.91  0.00              67.63       
+ALL_TASKS                          -2     1205.24   56.04  1452.03 344.86             4102.00 290.41            561.32      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  101.33    78.07  0.00    0.00               313.78  36.92             173.10      
+ALL_TASKS                          -2     1124.69   58.82  1377.17 330.52             3452.10 201.98            632.59      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.07     69.30  0.00    0.00               255.11  0.00              60.98       
+ALL_TASKS                          -2     977.89    59.74  1455.85 345.76             3275.66 109.19            487.15      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  43.76     70.64  0.00    0.00               305.71  0.00              64.10       
+ALL_TASKS                          -2     984.82    55.90  1627.09 379.65             3706.14 144.63            473.90      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  117.71    80.81  0.00    0.00               292.40  0.00              189.38      
+ALL_TASKS                          -2     993.91    59.41  1439.03 346.10             3242.37 145.72            603.99      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  40.89     68.94  0.00    0.00               288.94  0.00              56.94       
+ALL_TASKS                          -2     921.35    59.52  1443.74 342.89             3230.37 216.56            466.01      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  86.56     78.48  0.00    0.00               288.84  0.00              145.70      
+ALL_TASKS                          -2     1509.42   69.86  1499.52 343.26             3251.98 54.20             670.35      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.65     71.55  0.00    0.00               290.38  0.00              68.25       
+ALL_TASKS                          -2     1277.46   56.93  1396.26 380.80             3880.53 272.00            423.74      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  39.05     70.69  0.00    0.00               284.42  0.00              54.98       
+ALL_TASKS                          -2     1174.44   49.67  1409.54 321.16             3211.62 142.74            503.49      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  106.17    79.36  0.00    0.00               286.89  0.00              146.24      
+ALL_TASKS                          -2     949.33    56.96  1358.48 357.49             3056.58 89.37             527.62      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  55.24     73.38  0.00    0.00               308.21  0.00              72.69       
+ALL_TASKS                          -2     1001.73   55.97  1437.17 327.46             3347.34 272.88            475.07      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  60.06     70.30  0.00    0.00               285.86  0.00              71.11       
+ALL_TASKS                          -2     723.17    46.72  1340.76 357.54             3235.70 250.28            450.02      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  89.86     79.23  0.00    0.00               291.61  0.00              149.57      
+ALL_TASKS                          -2     901.57    48.39  1380.92 399.74             3143.41 54.51             562.44      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  47.57     75.86  0.00    0.00               269.75  0.00              72.09       
+ALL_TASKS                          -2     2757.78   55.32  1498.05 342.93             3248.78 0.00              1278.56     
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  87.53     72.91  0.00    0.00               309.08  0.00              126.55      
+ALL_TASKS                          -2     701.63    46.58  1357.19 325.73             2985.82 54.29             521.47      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  69.90     78.79  0.00    0.00               271.63  0.00              102.93      
+ALL_TASKS                          -2     978.63    58.38  1427.56 325.27             3090.03 144.56            511.86      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  56.11     73.27  0.00    0.00               293.61  0.00              75.95       
+ALL_TASKS                          -2     1116.45   58.22  1402.37 332.14             3635.09 424.40            529.44      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  78.11     75.53  0.00    0.00               271.32  0.00              118.76      
+ALL_TASKS                          -2     1018.90   56.22  1423.53 342.37             3333.59 198.21            517.01      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  67.07     79.61  0.00    0.00               304.79  17.93             101.86      
+ALL_TASKS                          -2     1140.55   62.24  1421.47 377.86             3112.84 233.91            509.54      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  86.19     75.10  0.00    0.00               285.06  0.00              131.76      
+ALL_TASKS                          -2     803.50    50.54  1446.56 410.75             3196.72 125.01            570.97      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  51.64     70.53  0.00    0.00               287.66  0.00              64.64       
+ALL_TASKS                          -2     806.55    54.58  1394.87 339.77             3093.74 125.18            398.60      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  71.71     81.36  0.00    0.00               269.68  0.00              105.05      
+ALL_TASKS                          -2     1168.04   58.20  1550.18 360.51             3460.86 126.18            509.26      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  87.25     74.00  0.00    0.00               287.25  0.00              126.79      
+ALL_TASKS                          -2     854.23    51.30  1343.63 322.47             3027.64 161.24            523.28      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.95     73.08  0.00    0.00               286.11  0.00              64.30       
+ALL_TASKS                          -2     972.75    51.30  1488.80 322.87             3587.47 304.93            463.01      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  100.46    80.25  0.00    0.00               285.67  0.00              175.39      
+ALL_TASKS                          -2     1419.28   60.95  1465.88 411.16             3825.59 107.26            698.12      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  42.00     71.03  0.00    0.00               291.33  0.00              64.31       
+ALL_TASKS                          -2     1517.56   62.22  1412.91 326.06             3659.08 126.80            471.03      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  45.27     72.08  0.00    0.00               284.56  0.00              62.96       
+ALL_TASKS                          -2     1917.34   44.19  3719.69 339.78             5829.90 35.77             1431.46     
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  111.08    78.99  0.00    0.00               251.20  0.00              172.23      
+ALL_TASKS                          -2     1108.67   59.33  1410.85 339.32             3089.59 142.87            628.65      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.60     69.82  0.00    0.00               287.43  0.00              64.02       
+ALL_TASKS                          -2     801.13    53.87  1423.20 342.29             3152.66 180.15            464.19      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.13     69.53  0.00    0.00               287.82  0.00              69.28       
+ALL_TASKS                          -2     882.87    59.73  1399.70 340.95             3032.67 89.72             493.96      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  101.37    80.32  0.00    0.00               303.54  0.00              164.58      
+ALL_TASKS                          -2     1244.75   55.70  1394.57 339.70             3271.89 53.64             592.70      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  43.00     71.86  0.00    0.00               280.25  0.00              61.31       
+ALL_TASKS                          -2     1976.12   48.64  1364.17 332.30             2938.22 139.92            785.06      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  104.18    80.15  0.00    0.00               272.02  0.00              148.86      
+ALL_TASKS                          -2     2149.57   62.61  1377.45 344.36             3008.65 0.00              1207.61     
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  56.01     72.16  0.00    0.00               290.06  0.00              68.57       
+ALL_TASKS                          -2     971.45    53.25  1612.53 326.13             3370.01 108.71            461.30      
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.96     69.16  0.00    0.00               289.07  18.07             61.24       
+ALL_TASKS                          -2     1062.82   55.40  1380.03 345.01             3450.08 308.69            480.29      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:28
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  101.69    77.35  0.00    0.00               285.03  0.00              146.03      
+ALL_TASKS                          -2     1084.28   59.19  1527.98 355.34             3642.28 284.28            582.40      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  40.46     73.21  0.00    0.00               267.67  17.84             70.80       
+ALL_TASKS                          -2     1086.35   53.64  1429.99 303.87             6238.32 286.00            660.66      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  72.23     71.34  0.00    0.00               308.83  0.00              113.34      
+ALL_TASKS                          -2     688.77    49.87  1482.15 343.42             3090.82 198.82            536.13      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  68.77     79.98  0.00    0.00               275.56  0.00              97.58       
+ALL_TASKS                          -2     952.57    60.61  1457.95 350.65             3082.00 129.19            525.20      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  45.04     70.17  0.00    0.00               288.89  0.00              73.89       
+ALL_TASKS                          -2     1142.52   60.61  1567.20 360.27             3548.71 126.10            623.64      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  73.59     72.54  0.00    0.00               291.12  18.20             122.03      
+ALL_TASKS                          -2     1325.04   54.32  2017.36 581.58             4652.66 545.23            932.34      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  55.97     78.05  0.00    0.00               273.42  0.00              106.84      
+ALL_TASKS                          -2     1569.05   60.05  1948.34 546.26             4825.34 254.92            881.02      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.97     71.41  0.00    0.00               296.65  0.00              96.97       
+ALL_TASKS                          -2     1242.28   57.77  1540.49 408.32             3841.94 148.48            674.57      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  70.73     71.50  0.00    0.00               295.12  0.00              116.37      
+ALL_TASKS                          -2     1096.53   55.06  1384.51 332.28             3728.95 276.90            596.61      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  63.57     75.36  0.00    0.00               293.88  0.00              107.10      
+ALL_TASKS                          -2     857.00    54.53  1360.76 349.38             3199.63 257.44            538.09      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  81.61     73.46  0.00    0.00               273.28  0.00              128.73      
+ALL_TASKS                          -2     839.80    53.14  1402.78 327.92             2951.30 182.18            656.37      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  45.58     69.84  0.00    0.00               290.29  0.00              62.05       
+ALL_TASKS                          -2     826.49    54.36  1471.13 345.08             3214.68 36.32             429.02      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  77.74     82.23  0.00    0.00               257.55  0.00              133.63      
+ALL_TASKS                          -2     861.43    56.38  1412.88 348.63             3156.05 128.44            544.55      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  84.77     73.43  0.00    0.00               306.90  0.00              131.67      
+ALL_TASKS                          -2     720.22    50.08  1407.37 324.78             2941.04 90.22             528.57      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  42.29     76.07  0.00    0.00               268.42  0.00              61.94       
+ALL_TASKS                          -2     1511.01   42.84  1397.05 340.31             3062.75 71.64             640.78      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  59.04     75.87  0.00    0.00               286.22  0.00              98.51       
+ALL_TASKS                          -2     1152.20   50.28  1472.37 341.16             3034.51 161.60            678.85      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  78.50     73.69  0.00    0.00               286.39  0.00              122.49      
+ALL_TASKS                          -2     1924.13   57.55  1445.45 339.06             3158.58 0.00              1124.44     
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.22     70.88  0.00    0.00               285.89  17.87             60.95       
+ALL_TASKS                          -2     1290.20   60.96  1322.81 321.77             3467.91 232.39            493.10      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  98.82     78.00  0.00    0.00               307.69  0.00              171.05      
+ALL_TASKS                          -2     762.23    51.29  1427.25 343.26             3288.10 126.47            557.18      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  40.13     70.89  0.00    0.00               289.07  0.00              59.41       
+ALL_TASKS                          -2     1231.73   63.46  1372.04 324.96             3213.47 180.53            498.02      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  39.66     71.11  0.00    0.00               287.97  0.00              59.94       
+ALL_TASKS                          -2     1191.32   56.95  1532.08 324.44             3424.64 54.07             481.27      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  99.06     78.84  0.00    0.00               274.13  0.00              173.39      
+ALL_TASKS                          -2     2216.12   43.97  1643.15 365.15             4217.43 0.00              1219.58     
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  39.42     72.95  0.00    0.00               291.25  0.00              69.47       
+ALL_TASKS                          -2     2050.45   61.37  1492.74 345.88             3859.29 0.00              571.99      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  93.55     79.07  0.00    0.00               290.83  18.18             163.64      
+ALL_TASKS                          -2     1198.12   62.28  1605.99 328.50             3467.48 328.50            720.48      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  51.53     71.56  0.00    0.00               293.78  0.00              71.17       
+ALL_TASKS                          -2     752.87    52.09  1406.56 365.34             3251.53 91.34             403.94      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.91     70.26  0.00    0.00               253.62  0.00              69.30       
+ALL_TASKS                          -2     719.25    49.48  1505.07 362.67             3173.33 36.27             468.15      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  100.55    78.82  0.00    0.00               307.80  0.00              153.65      
+ALL_TASKS                          -2     1336.74   59.94  1484.98 362.19             4020.30 90.55             621.04      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  50.47     71.80  0.00    0.00               271.54  0.00              69.90       
+ALL_TASKS                          -2     809.73    51.35  1390.85 325.13             3359.71 126.44            474.22      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.82     72.91  0.00    0.00               253.27  0.00              67.67       
+ALL_TASKS                          -2     866.47    56.04  1395.65 344.38             3045.06 199.38            474.90      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  107.06    79.02  0.00    0.00               200.06  0.00              158.67      
+ALL_TASKS                          -2     1183.04   56.75  1401.54 364.04             4368.44 54.61             622.64      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  50.32     74.69  0.00    0.00               161.46  0.00              67.74       
+ALL_TASKS                          -2     653.22    48.28  1438.58 359.64             2859.18 143.86            473.04      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  83.26     75.04  0.00    0.00               197.82  0.00              119.59      
+ALL_TASKS                          -2     793.66    55.39  1330.35 323.60             2696.65 53.93             550.93      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  60.75     82.93  0.00    0.00               181.18  0.00              100.92      
+ALL_TASKS                          -2     1503.39   46.09  1374.96 325.65             2948.93 0.00              592.36      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  45.94     79.02  0.00    0.00               197.93  0.00              69.17       
+ALL_TASKS                          -2     1824.48   62.99  1367.35 341.84             3094.53 0.00              699.68      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  80.87     75.96  0.00    0.00               179.22  0.00              112.10      
+ALL_TASKS                          -2     884.83    57.10  1361.90 322.55             2687.96 89.60             501.33      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  61.01     84.39  0.00    0.00               182.34  0.00              98.79       
+ALL_TASKS                          -2     2207.81   62.48  1368.25 364.87             3630.42 0.00              1034.69     
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  84.93     75.46  0.00    0.00               196.13  0.00              132.03      
+ALL_TASKS                          -2     812.80    48.48  1413.16 393.54             3094.64 125.22            751.04      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  42.09     72.23  0.00    0.00               162.80  0.00              60.12       
+ALL_TASKS                          -2     1000.19   57.75  1388.08 342.51             2920.38 198.30            367.56      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  64.16     80.75  0.00    0.00               181.70  0.00              100.49      
+ALL_TASKS                          -2     814.20    53.59  1439.23 327.93             3060.65 200.40            501.23      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  81.53     75.59  0.00    0.00               198.21  18.02             132.07      
+ALL_TASKS                          -2     798.56    54.21  1404.80 360.21             3007.72 144.08            528.07      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  47.70     72.61  0.00    0.00               179.90  0.00              59.78       
+ALL_TASKS                          -2     1335.19   64.35  1436.67 359.17             3286.39 161.63            497.51      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  62.08     77.93  0.00    0.00               181.16  0.00              107.79      
+ALL_TASKS                          -2     949.51    37.47  1544.66 345.28             3034.81 72.69             525.33      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  89.46     75.53  0.00    0.00               201.09  0.00              128.08      
+ALL_TASKS                          -2     793.00    47.73  1400.46 327.38             3255.62 109.13            605.34      
+Timestamp: 2024-02-09 01:02:30
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.35     74.64  0.00    0.00               181.36  0.00              61.20       
+ALL_TASKS                          -2     987.21    59.99  1399.46 363.50             3126.07 72.70             470.79      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  91.63     80.97  0.00    0.00               197.10  0.00              172.41      
+ALL_TASKS                          -2     1363.97   55.19  1490.77 323.30             5963.07 215.53            870.82      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  44.53     73.10  0.00    0.00               181.52  0.00              61.85       
+ALL_TASKS                          -2     864.72    55.59  1426.38 325.00             3484.69 144.44            426.14      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  45.67     73.50  0.00    0.00               165.81  0.00              60.94       
+ALL_TASKS                          -2     958.10    56.82  1512.10 368.81             3263.93 497.89            475.44      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  101.42    78.78  0.00    0.00               198.39  0.00              174.82      
+ALL_TASKS                          -2     794.02    53.40  1376.41 362.21             2879.60 108.66            645.92      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  46.95     73.99  0.00    0.00               197.79  0.00              63.95       
+ALL_TASKS                          -2     1488.78   59.21  1827.29 591.18             4389.08 340.38            886.04      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  39.90     76.04  0.00    0.00               180.57  0.00              70.50       
+ALL_TASKS                          -2     1334.63   56.63  1807.21 542.16             4554.18 180.72            813.43      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  103.54    81.80  0.00    0.00               197.96  0.00              186.47      
+ALL_TASKS                          -2     1532.10   49.62  1386.26 378.07             4122.76 90.02             725.36      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.93     72.49  0.00    0.00               179.91  0.00              73.51       
+ALL_TASKS                          -2     1888.24   50.80  1407.81 342.93             3429.29 180.49            754.15      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  99.96     81.65  0.00    0.00               198.80  0.00              166.94      
+ALL_TASKS                          -2     771.58    48.43  1637.13 341.82             3058.38 107.94            567.48      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  48.77     77.50  0.00    0.00               182.68  0.00              73.32       
+ALL_TASKS                          -2     1348.54   58.30  1522.39 366.84             3998.56 293.47            569.71      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  38.24     75.05  0.00    0.00               199.24  0.00              69.75       
+ALL_TASKS                          -2     1582.18   58.91  1370.94 378.81             3084.61 0.00              978.65      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  111.33    82.11  0.00    0.00               179.87  0.00              185.16      
+ALL_TASKS                          -2     1115.18   55.52  1421.82 323.96             3059.61 89.99             730.15      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  51.30     77.61  0.00    0.00               180.34  0.00              76.38       
+ALL_TASKS                          -2     968.37    50.90  1352.79 360.74             2976.13 144.30            496.13      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  76.78     75.26  0.00    0.00               198.27  0.00              121.81      
+ALL_TASKS                          -2     843.31    55.86  1371.77 379.04             2924.03 144.40            522.84      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  61.65     78.42  0.00    0.00               196.79  0.00              83.76       
+ALL_TASKS                          -2     989.43    60.93  1434.02 340.58             3029.37 71.70             477.25      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  52.21     75.14  0.00    0.00               178.48  0.00              66.23       
+ALL_TASKS                          -2     1004.96   57.84  1537.49 339.68             3128.62 71.51             447.32      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  77.58     76.33  0.00    0.00               179.83  0.00              106.63      
+ALL_TASKS                          -2     911.65    58.49  1359.34 357.72             2969.09 71.54             498.69      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  61.17     77.18  0.00    0.00               199.48  0.00              88.84       
+ALL_TASKS                          -2     726.90    49.25  1401.07 363.91             2874.92 181.96            474.88      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  58.07     73.57  0.00    0.00               198.13  0.00              88.18       
+ALL_TASKS                          -2     1775.58   70.38  1436.44 377.07             3447.46 35.91             579.40      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  54.49     79.01  0.00    0.00               181.48  0.00              80.15       
+ALL_TASKS                          -2     1257.97   49.46  1403.88 328.18             3227.11 0.00              499.24      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  53.71     78.16  0.00    0.00               181.51  0.00              76.84       
+ALL_TASKS                          -2     883.86    56.44  1395.61 326.25             2954.34 163.12            466.16      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  80.54     77.10  0.00    0.00               198.18  0.00              121.66      
+ALL_TASKS                          -2     932.03    58.77  1382.70 359.14             2927.02 107.74            546.71      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.05     72.54  0.00    0.00               198.71  18.06             59.96       
+ALL_TASKS                          -2     821.73    49.91  1375.60 325.80             3167.49 199.10            464.02      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  47.42     71.15  0.00    0.00               180.93  0.00              56.56       
+ALL_TASKS                          -2     1082.27   62.78  1517.34 343.21             3016.61 108.38            476.93      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  49.37     66.77  0.00    0.00               181.34  0.00              69.02       
+ALL_TASKS                          -2     1609.42   61.60  1341.52 344.44             2954.96 0.00              514.63      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  26.91     52.07  0.00    0.00               179.46  17.95             20.63       
+ALL_TASKS                          -2     1756.10   46.65  1462.28 343.00             3123.13 234.69            685.81      
+[26070]ffplay                          	<calculating>
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  40.14     49.65  0.00    0.00               199.26  0.00              37.22       
+ALL_TASKS                          -2     686.96    44.13  1332.34 342.09             2664.68 126.03            475.25      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  21.31     50.52  0.00    0.00               180.34  0.00              20.87       
+ALL_TASKS                          -2     1321.33   62.11  1371.51 360.92             3519.00 108.28            385.49      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  20.81     49.26  0.00    0.00               196.80  0.00              19.24       
+ALL_TASKS                          -2     743.78    51.41  1450.48 340.24             3241.20 89.54             394.64      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  38.56     50.85  0.00    0.00               182.08  0.00              36.63       
+ALL_TASKS                          -2     1717.18   56.32  1436.40 327.28             3054.61 0.00              720.19      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  20.91     51.50  0.00    0.00               177.73  0.00              20.46       
+ALL_TASKS                          -2     1184.81   58.90  1405.86 355.91             3060.85 142.37            711.66      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  41.89     51.66  0.00    0.00               197.02  0.00              37.27       
+ALL_TASKS                          -2     664.13    49.48  1432.48 340.21             2918.68 179.06            505.48      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ffplay                             26070  23.60     48.32  0.00    0.00               164.56  0.00              18.63       
+ALL_TASKS                          -2     1015.06   61.19  1426.28 365.71             3181.71 36.57             316.66      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1435.28   53.86  1640.99 396.72             3426.25 126.23            765.72      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     4246.92   59.65  1629.54 318.82             5012.61 0.00              4329.83     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2703.05   55.01  1455.59 331.65             4864.24 0.00              2460.69     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2407.46   58.38  1530.03 327.86             4298.67 18.21             2490.24     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     818.20    48.70  1660.15 401.36             3648.68 218.92            659.45      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1559.81   55.23  1424.95 342.71             4437.20 108.22            650.09      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2296.95   39.50  2178.08 332.25             4060.84 0.00              1091.29     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     3707.57   55.35  1645.72 402.29             5284.58 0.00              5174.50     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1732.87   46.00  1563.19 372.19             4801.24 186.09            714.76      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1303.33   49.85  1412.29 348.49             3374.83 128.39            508.51      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2317.40   50.91  2114.33 367.71             3879.33 220.63            1310.90     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     993.43    58.58  1361.77 317.12             3245.86 279.82            617.35      
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     3552.76   80.98  1387.98 328.73             3141.21 0.00              5294.85     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     6665.03   92.04  1217.91 321.39             3704.46 0.00              14348.98     
+Timestamp: 2024-02-09 01:02:33
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     3902.98   90.58  1461.60 337.29             3016.89 0.00              10405.12     
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     4658.26   85.18  1312.75 337.57             3206.87 0.00              11218.63     
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     3491.27   77.26  1798.46 293.63             6624.92 201.87            7499.90     
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     964.09    60.26  1425.26 388.71             3239.22 425.73            617.94      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     682.06    47.16  1824.33 335.08             3257.74 167.54            597.56      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1749.87   61.85  1561.85 459.37             4097.56 183.75            1843.97     
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     2170.05   63.87  1961.00 740.00             4717.50 240.50            2663.21     
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1536.32   57.97  1955.16 558.62             4748.26 335.17            994.62      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     993.27    54.31  1423.73 332.82             3642.54 314.33            549.72      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     661.02    51.54  1382.33 331.76             2838.39 55.29             459.38      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     637.31    42.93  1398.67 326.96             2361.39 18.16             397.85      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     732.40    51.20  1496.26 346.70             2682.33 91.24             421.07      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     1214.71   58.33  1407.92 397.10             3501.74 162.45            504.42      
+Timestamp: 2024-02-09 01:02:34
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)  Energy Impact
+ALL_TASKS                          -2     816.49    43.27  1390.56 361.19             2835.30 270.89            411.26      
