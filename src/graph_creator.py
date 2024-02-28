@@ -20,10 +20,24 @@ def plot_dataset_comparisons(dataset_groups):
         dataset_names.append(dataset_name)
         dataset_averages.append(dataset_average)
 
-    plt.bar(dataset_names, dataset_averages)
-    plt.ylabel('Average of Averages')
-    plt.title('Comparison of Dataset Averages')
-    plt.savefig('graph/dataset_comparison.png')
+    custom_order = ['Lumafilter_1920x1080_H264_30secsteps_25_5000', 'Lumafilter_1920x1080_H264_30secsteps_60_5000','Lumafilter_1920x1080_H264_30secsteps_120_5000']
+    ordered_dataset_names = [name for name in custom_order if name in dataset_names]
+    ordered_dataset_averages = [dataset_averages[dataset_names.index(name)] for name in ordered_dataset_names]
+
+    x_labels = ["fps "+name.split('_')[4] for name in ordered_dataset_names]
+
+
+    bars = plt.bar(x_labels, ordered_dataset_averages)
+
+    # bars = plt.bar(dataset_names, dataset_averages)
+    plt.ylabel('Percentage of Energy Consumption')
+    plt.title('Comparison of energy consumption with different fps')
+
+    for bar in bars:
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width() / 2.0, height, f'{height:.2f}', ha='center', va='bottom')
+
+    plt.savefig('graph/dataset_comparison_fps.png')
     plt.show()
 
 

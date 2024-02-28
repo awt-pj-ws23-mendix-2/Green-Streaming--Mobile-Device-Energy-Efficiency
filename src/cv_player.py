@@ -47,6 +47,7 @@ class Player:
         # self.cv2.destroyAllWindows()
     def get_video_brightness(self, save_file_path):
         brightness_values = []
+        timestamp_current = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         while self.cap.isOpened():
             ret, frame = self.cap.read()
             if not ret:
@@ -59,7 +60,6 @@ class Player:
         output_file_path_count = file_manager.generate_output_file_name(output_path)
 
         with open(output_file_path_count, 'a') as file:
-            timestamp_current= datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             file.write(f"\n start-Timestamp: {timestamp_current} \n")
             file.write(str(brightness_values))
         return brightness_values

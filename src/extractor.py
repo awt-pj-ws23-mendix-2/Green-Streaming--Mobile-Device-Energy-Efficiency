@@ -30,7 +30,7 @@ class Extractor:
 
     def process_video_files(self, temp_data_folder, csv_output_folder):
         for file_name in os.listdir(temp_data_folder):
-            if re.match(r'.*_powermetrics_\d+\.txt$', file_name):
+            if re.match(r'.*_powermetrics\d+\.txt$', file_name):
                 input_file = os.path.join(temp_data_folder, file_name)
                 output_csv_file_name = file_name.replace('.txt', '.csv')
                 output_csv_file = os.path.join(csv_output_folder, output_csv_file_name)

@@ -13,9 +13,9 @@ class FileManagement:
     @staticmethod
     def generate_output_file_name(base_name):
         count = 1
-        file_name = f"{base_name}_{count}.txt"
+        file_name = f"{base_name}{count}.txt"
         while os.path.exists(file_name):
-            file_name = f"{base_name}_{count}.txt"
+            file_name = f"{base_name}{count}.txt"
             count += 1
         return file_name
     def write_file(self, output, file_path):
