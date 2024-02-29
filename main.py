@@ -8,14 +8,6 @@ from datetime import datetime
 from src import extractor
 
 
-def initialize():
-    # get configurations
-    config_parser = parser.Parser()
-    pas = config_parser.get_credentials()
-
-    # all the requirement for main will be initialized here
-    file_manager = file_management.FileManagement()
-    video_path = file_manager.find_mp4_files("./testfolder", 1)
 
 
 # Press the green button in the gutter to run the script.
@@ -28,7 +20,6 @@ if __name__ == '__main__':
     config_parser = parser.Parser()
     pas = config_parser.get_credentials()
 
-    # all the requirement for main will be initialized here
     file_manager = file_management.FileManagement()
     if local_execution:
         video_paths = file_manager.find_mp4_files("./testfolder", number_of_files)
